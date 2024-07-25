@@ -63,3 +63,4 @@ class AccountInfoForm(forms.ModelForm):
                 acc_name = i.get("account_name")
                 if acc_name.strip().lower() == form_acc_name.strip().lower():
                     raise ValidationError("This account info already exists!")
+

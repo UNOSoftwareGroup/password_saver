@@ -160,15 +160,17 @@ def add_acc(request):
 def update_password(request):
     if request.method == "POST":
         password = request.POST.get("password")
+        folder_id = request.POST.get("folder")
         encrypted_password = encrypt(password)
         id = request.POST.get("id")
-        update_data_obj = AccountInfo.objects.filter(user_id=request.user.id, id=id).values()
-        if len(update_data_obj) == 0:
+        update_data_obj = AccountInfo.objects.filter(user_id=request.user.id, id=id)
+        if not update_data_obj.exists():
             messages.warning(request, "An error occurred while updating. Please try again")
         else:
-            update_data_obj.update(password=encrypted_password)
+            update_data_obj.update(password=encrypted_password, folder_id=folder_id)
             messages.success(request, "Password updated successfully")
         return HttpResponseRedirect(reverse("list"))
+
 
 @login_required
 def delete_info(request):

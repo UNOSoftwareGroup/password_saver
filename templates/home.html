@@ -91,6 +91,14 @@
                             <input type="password" name="confirmpassword" class="form-control" value="" placeholder="Confirm Password" required>
                             <span class="fa fa-eye mx-2 displaypassword"></span>
                         </div>
+                        <div class="outerdiv my-4">
+                            <select name="folder" class="form-control">
+                                <option value="">Select Folder</option>
+                                {% for folder in folders %}
+                                    <option value="{{ folder.id }}">{{ folder.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <input type="hidden" id="update_rec_id" name="id">
@@ -121,6 +129,14 @@
                         <div class="outerdiv my-4">
                             <input type="password" name="password" class="form-control inputpassword" placeholder="Password">
                             <span class="fa fa-eye mx-2 displaypassword"></span>
+                        </div>
+                        <div class="outerdiv my-4">
+                            <select name="folder" class="form-control">
+                                <option value="">Select Folder</option>
+                                {% for folder in folders %}
+                                    <option value="{{ folder.id }}">{{ folder.name }}</option>
+                                {% endfor %}
+                            </select>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -177,8 +193,8 @@
                         <td class="pwd">{{ password_list.password }}</td>
                         <td>{{ password_list.folder.name }}</td>
                         <td class="togglePwdicon"><span class="fa fa-eye" style="margin-left: 50px;"></span></td>
-                        <td><a class="update btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#updatemodal" data-id="{{ password_list.id }}">Update</a></td>
-                        <td><a class="del btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodal" data-id="{{ password_list.id }}">Delete</a></td>
+                        <td> <a class="update btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#updatemodal" data-id="{{ password_list.id }}" data-folder="{{ password_list.folder.id }}"> Update </a></td>
+                        <td><a class="del btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deletemodal" data-id="{{ password_list.id }}"> Delete </a></td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -255,10 +271,11 @@
         $(".update").on("click", function() {
             var id
             var element = $(this)[0].getAttribute("data-id")
+            var folder_id = $(this)[0].getAttribute("data-folder")
             id = element
-            console.log(id)
             var element = document.getElementById("update_rec_id")
             element.setAttribute("value", id)
+            document.querySelector("select[name='folder']").value = folder_id;
         })
         $("#updatebtn").on("click", function(clickEvent) {
             var password = myform.password.value

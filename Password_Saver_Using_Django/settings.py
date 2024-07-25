@@ -42,7 +42,12 @@ INSTALLED_APPS = [
     'Password_Saver'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://safe-password-app.azurewebsites.net',
+]
+
 MIDDLEWARE = [
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
