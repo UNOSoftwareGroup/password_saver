@@ -3,8 +3,19 @@ from django.db import models
 from django.contrib.auth.models  import User 
 # Create your models here.
 
+class Folder(models.Model):
+    name = models.CharField(max_length=255)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
+    
 class AccountInfo(models.Model):
-    account_name = models.CharField("Account Name ",max_length=200)
-    user_name = models.CharField("User Name ",max_length=200)
-    password = models.CharField("Password ",max_length=200)
-    user = models.ForeignKey(User,on_delete=models.CASCADE,related_name="acc_details")
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    account_name = models.CharField(max_length=255)
+    user_name = models.CharField(max_length=255)
+    password = models.CharField(max_length=255)
+    folder = models.ForeignKey(Folder, on_delete=models.CASCADE, null=True, blank=True)
+
+    def __str__(self):
+        return self.account_name

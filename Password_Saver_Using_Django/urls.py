@@ -41,6 +41,7 @@ urlpatterns = [
     path("password_reset_complete/",
 auth_views.PasswordResetCompleteView.as_view(template_name = "users_password_reset/password_reset_complete.html"),
     name = "password_reset_complete"),
+    path('add_folder/', views.add_folder, name="add_folder"),
 ]
 
 if settings.DEBUG:
