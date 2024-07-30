@@ -38,37 +38,5 @@
             </div>
         </form>
     </div>                       
-    <script>
-        var span = "<span class='fa fa-eye mx-2 displaypassword'></span>"
-        document.getElementsByClassName("outerdiv")[1].innerHTML+=span
-        $('.displaypassword').on("click",function(){
-            let showpwdicon = $(this)[0]
-            var pwd = $(this).prev("input")[0]
-            pwd.setAttribute("type","text")
-            showpwdicon.classList.remove("fa-eye")
-            showpwdicon.classList.add("fa-eye-slash")
-            setTimeout(function(){
-                pwd.setAttribute("type","password")
-                showpwdicon.classList.remove("fa-eye-slash")
-                showpwdicon.classList.add("fa-eye")
-            },3000)
-        })
-
-        var input = document.getElementsByClassName("form-control")
-        for(i=0;i<input.length;i++){
-            input[i].addEventListener("focus",() => {
-                var outer = event.srcElement.parentNode
-                outer.style["border"] = "1px solid #657dde"
-                })
-            input[i].addEventListener("focusout",() => {
-                var outer = event.srcElement.parentNode
-                outer.style["border"] = "1px solid #8c8c8c"
-                })
-            }
-
-        var message = document.getElementsByClassName("message")[0]
-        setTimeout(function(){
-            message.remove()},3000)
-    </script>
 </body>
 </html>
