@@ -1,0 +1,15 @@
+digraph "pip._vendor.pygments.formatters.terminal256.Terminal256Formatter._color_index"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._vendor.pygments.formatters.terminal256.\lTerminal256Formatter._color_index",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.pygments.formatters.terminal256.\lTerminal256Formatter._closest_color",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pygments_1_1formatters_1_1terminal256_1_1_terminal256_formatter.html#a89fbbfdd54ccbb66eaf72fd3274f8419",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.pkg_resources.\lEnvironment.best_match",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pkg__resources_1_1_environment.html#a41e3b2887ba9192912631451832b7a12",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pkg_resources.Environment.best\l_match",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1_environment.html#a10b72e54ef56230acadbffbd4d3f600d",tooltip=" "];
+}

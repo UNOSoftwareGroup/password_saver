@@ -1,0 +1,13 @@
+digraph "packaging._tokenizer.Tokenizer.raise_syntax_error"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="packaging._tokenizer.Tokenizer.raise\l_syntax_error",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="packaging._tokenizer.Tokenizer.enclosing\l_tokens",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpackaging_1_1__tokenizer_1_1_tokenizer.html#a27f8cfa7a5ed91e0cba1923b9b18da3d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="packaging._tokenizer.Tokenizer.expect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpackaging_1_1__tokenizer_1_1_tokenizer.html#a151b21b99f387eddd422cd0dcf2064dd",tooltip=" "];
+}

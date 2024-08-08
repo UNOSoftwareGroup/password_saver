@@ -1,0 +1,13 @@
+digraph "pip._internal.index.package_finder.PackageFinder.index_urls"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._internal.index.package\l_finder.PackageFinder.index_urls",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.models.search\l_scope.SearchScope.get_formatted\l_locations",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1models_1_1search__scope_1_1_search_scope.html#aacc4b0b137f96b1fa6ab7d32d751de25",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.models.search\l_scope.SearchScope.get_index\l_urls_locations",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1models_1_1search__scope_1_1_search_scope.html#a728525afce9ef9e1ec7db1be1b4116fc",tooltip=" "];
+}

@@ -1,0 +1,13 @@
+digraph "django.templatetags.i18n.GetLanguageInfoListNode.render"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.templatetags.i18n.\lGetLanguageInfoListNode.render",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.templatetags.i18n.\lGetLanguageInfoListNode.get\l_language_info",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1templatetags_1_1i18n_1_1_get_language_info_list_node.html#af89600139fd48db5cbe9059022afaf8d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.assertion.rewrite.\lAssertionRewriter.variable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1assertion_1_1rewrite_1_1_assertion_rewriter.html#a6e0b66a211b224916bfb75a281a4ffcb",tooltip=" "];
+}

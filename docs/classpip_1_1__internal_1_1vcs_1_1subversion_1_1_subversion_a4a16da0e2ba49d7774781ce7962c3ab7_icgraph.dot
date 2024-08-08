@@ -1,0 +1,11 @@
+digraph "pip._internal.vcs.subversion.Subversion.should_add_vcs_url_prefix"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._internal.vcs.subversion.\lSubversion.should_add_vcs\l_url_prefix",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.vcs.versioncontrol.\lVersionControl.get_src_requirement",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1vcs_1_1versioncontrol_1_1_version_control.html#a31e358b8b6c13d391d0965bc214a1013",tooltip=" "];
+}

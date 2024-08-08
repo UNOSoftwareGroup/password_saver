@@ -1,0 +1,25 @@
+digraph "pip._vendor.pygments.formatters.latex.LatexEmbeddedLexer.get_tokens_unprocessed"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._vendor.pygments.formatters.latex.\lLatexEmbeddedLexer.get_tokens\l_unprocessed",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.pygments.formatters.latex.\lLatexEmbeddedLexer._find_safe\l_escape_tokens",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pygments_1_1formatters_1_1latex_1_1_latex_embedded_lexer.html#a52f0dff73f700753d404bda6f3ae4a3f",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.pygments.formatters.latex.\lLatexEmbeddedLexer._filter_to",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pygments_1_1formatters_1_1latex_1_1_latex_embedded_lexer.html#a065b996b1b64f3b0eaaef78786781549",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.pygments.formatters.latex.\lLatexEmbeddedLexer._find_escape_tokens",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pygments_1_1formatters_1_1latex_1_1_latex_embedded_lexer.html#a787ce4e0d4863066f462657750954ec7",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._vendor.rich.align.Align.left",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1align_1_1_align.html#a7bcf04e0d04e4f1887f676bd21ec01da",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sqlparse.sql.Comparison.left",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsqlparse_1_1sql_1_1_comparison.html#ae1e913754689b25ccbf8c93c089ffe54",tooltip=" "];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.rich.align.Align.right",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1align_1_1_align.html#aac9cb8819744b16c61dee6d0f8983991",tooltip=" "];
+  Node4 -> Node8 [id="edge7_Node000004_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sqlparse.sql.Comparison.right",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsqlparse_1_1sql_1_1_comparison.html#ad5456a04af73f274748598c59c80b51d",tooltip=" "];
+  Node2 -> Node1 [id="edge8_Node000002_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node1 [id="edge9_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+}

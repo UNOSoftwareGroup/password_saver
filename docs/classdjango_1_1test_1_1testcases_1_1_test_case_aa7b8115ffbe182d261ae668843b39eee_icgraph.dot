@@ -1,0 +1,27 @@
+digraph "django.test.testcases.TestCase._databases_support_transactions"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.test.testcases.Test\lCase._databases_support\l_transactions",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.test.testcases.Test\lCase._fixture_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_test_case.html#a7a0a974c7f7193cc38689175c0045f60",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node3 [id="edge3_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.test.testcases.Transaction\lTestCase._pre_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_transaction_test_case.html#afc29fa3abebb0bec3bf77dfb8ae66866",tooltip=" "];
+  Node3 -> Node3 [id="edge4_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node4 [id="edge5_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.test.testcases.Test\lCase._fixture_teardown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_test_case.html#ab930e9b3c1af775d0c730fe0d892008d",tooltip=" "];
+  Node4 -> Node4 [id="edge6_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node5 [id="edge7_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.test.testcases.Transaction\lTestCase._post_teardown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_transaction_test_case.html#a69ba12e199eb5725e68e9cf2e6a810bf",tooltip=" "];
+  Node5 -> Node5 [id="edge8_Node000005_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge9_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.test.testcases.Test\lCase.setUpClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_test_case.html#a1a1cfa7f86f98ea0ec1fc1c6cfd3e36a",tooltip=" "];
+  Node6 -> Node6 [id="edge10_Node000006_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge11_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="django.test.testcases.Test\lCase.tearDownClass",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_test_case.html#a27ae1e610c652fd5c99fe714fa01d370",tooltip=" "];
+  Node7 -> Node7 [id="edge12_Node000007_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "gunicorn.workers.gthread.ThreadWorker.on_client_socket_readable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="gunicorn.workers.gthread.\lThreadWorker.on_client\l_socket_readable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="gunicorn.workers.gthread.\lThreadWorker.finish_request",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgunicorn_1_1workers_1_1gthread_1_1_thread_worker.html#adfa338666e35a56c75117abf12814e8d",tooltip=" "];
+}

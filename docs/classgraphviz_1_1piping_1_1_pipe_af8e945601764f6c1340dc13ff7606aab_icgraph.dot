@@ -1,0 +1,19 @@
+digraph "graphviz.piping.Pipe._pipe_future"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="graphviz.piping.Pipe.\l_pipe_future",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="graphviz.piping.Pipe.\l_pipe_legacy",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgraphviz_1_1piping_1_1_pipe.html#a6632f0bdcb84b91daead31b26b79b528",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="graphviz.piping.Pipe.pipe",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgraphviz_1_1piping_1_1_pipe.html#ad98e895b06a856a0b5aa0f6be556ddf2",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="graphviz.jupyter_integration.\lJupyterIntegration._repr\l_image_jpeg",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgraphviz_1_1jupyter__integration_1_1_jupyter_integration.html#a248db11ade2b9f8d0388a0dbc86576b9",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="graphviz.jupyter_integration.\lJupyterIntegration._repr\l_image_png",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgraphviz_1_1jupyter__integration_1_1_jupyter_integration.html#ae156b2251f5ce9c3c4ac6e38e46beeb6",tooltip=" "];
+  Node3 -> Node6 [id="edge5_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="graphviz.jupyter_integration.\lJupyterIntegration._repr\l_image_svg_xml",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgraphviz_1_1jupyter__integration_1_1_jupyter_integration.html#a9471949969ecf8b53dfc66e58fc99f2f",tooltip=" "];
+}

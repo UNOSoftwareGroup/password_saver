@@ -1,0 +1,17 @@
+digraph "django.views.generic.dates.BaseDateListView.get_date_list_period"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.views.generic.dates.\lBaseDateListView.get_date\l_list_period",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.views.generic.dates.\lBaseDateListView.get_date_list",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1views_1_1generic_1_1dates_1_1_base_date_list_view.html#a21e3b6e4007ef1b16b4df8bd6c0e7b23",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.views.generic.dates.\lBaseArchiveIndexView.get\l_dated_items",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1views_1_1generic_1_1dates_1_1_base_archive_index_view.html#ab9794c8a807f2b820629179ebfc41e2c",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.views.generic.dates.\lBaseMonthArchiveView.get\l_dated_items",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1views_1_1generic_1_1dates_1_1_base_month_archive_view.html#ae62ad9b839e3904bd2162b5e92b6d02d",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.views.generic.dates.\lBaseYearArchiveView.get\l_dated_items",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1views_1_1generic_1_1dates_1_1_base_year_archive_view.html#af1e2e3364ceacb5fd46eef85345ee94a",tooltip=" "];
+}

@@ -1,0 +1,13 @@
+digraph "django.views.i18n.JavaScriptCatalog.get_catalog"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.views.i18n.JavaScript\lCatalog.get_catalog",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.views.i18n.JavaScript\lCatalog._num_plurals",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1views_1_1i18n_1_1_java_script_catalog.html#a418d7b0864fc06db5e6ed0ace0b4c7ac",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.views.i18n.JavaScript\lCatalog._plural_string",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1views_1_1i18n_1_1_java_script_catalog.html#a938355bc20831c29806cca4afd10440b",tooltip=" "];
+}

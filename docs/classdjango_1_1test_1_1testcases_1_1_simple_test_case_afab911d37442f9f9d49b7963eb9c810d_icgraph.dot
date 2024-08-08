@@ -1,0 +1,13 @@
+digraph "django.test.testcases.SimpleTestCase.assertRedirects"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.test.testcases.Simple\lTestCase.assertRedirects",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="tests.tests_unit.MixinsTest.test\l_CreateUpdateAjaxMixin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtests_1_1tests__unit_1_1_mixins_test.html#afd724a09c56711dfad3236760fcd1452",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="tests.tests_unit.MixinsTest.test\l_LoginAjaxMixin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtests_1_1tests__unit_1_1_mixins_test.html#afc037be1d64ff533a13006c738ce9e9c",tooltip=" "];
+}

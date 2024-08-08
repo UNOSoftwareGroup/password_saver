@@ -1,0 +1,14 @@
+digraph "django.urls.resolvers.URLResolver._check_custom_error_handlers"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.urls.resolvers.URLResolver.\l_check_custom_error_handlers",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.urls.resolvers.URLResolver.resolve\l_error_handler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1urls_1_1resolvers_1_1_u_r_l_resolver.html#a36e2bbfc5d44fed58f8389817c69708a",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.urls.resolvers.URLResolver.urlconf\l_module",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1urls_1_1resolvers_1_1_u_r_l_resolver.html#af68d90d7e16fd87c27d231d3e9a17459",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+}

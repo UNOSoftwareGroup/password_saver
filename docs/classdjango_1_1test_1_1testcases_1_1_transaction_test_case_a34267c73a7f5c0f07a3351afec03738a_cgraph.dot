@@ -1,0 +1,22 @@
+digraph "django.test.testcases.TransactionTestCase._fixture_teardown"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.test.testcases.Transaction\lTestCase._fixture_teardown",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.test.testcases.Transaction\lTestCase._databases_names",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_transaction_test_case.html#a035e1553bc808dd366fb19b760e8b7be",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.utils.Connection\lHandler.databases",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1utils_1_1_connection_handler.html#af7f29772e6e221e678cd244e59eb14a7",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.test.testcases.Simple\lTestCase.settings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_simple_test_case.html#a07dd6434139ac4c23bf877d7c3befe32",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.utils.connection.\lBaseConnectionHandler.settings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1utils_1_1connection_1_1_base_connection_handler.html#aa776ed5898d67867ef81fd3fe39e4286",tooltip=" "];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.db.utils.Connection\lHandler.configure_settings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1utils_1_1_connection_handler.html#a9b280e1caaf34e9c99489aa8e460cf33",tooltip=" "];
+  Node6 -> Node6 [id="edge6_Node000006_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node7 [id="edge7_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="django.utils.connection.\lBaseConnectionHandler.configure\l_settings",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1utils_1_1connection_1_1_base_connection_handler.html#a24a106956676e0d000fe67caf8c33f0d",tooltip=" "];
+}

@@ -1,0 +1,20 @@
+digraph "django.utils.functional.LazyObject.__getattribute__"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.utils.functional.\lLazyObject.__getattribute__",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.cachecontrol.filewrapper.\lCallbackFileWrapper.__getattr__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1cachecontrol_1_1filewrapper_1_1_callback_file_wrapper.html#af22d09088e40c27ff096a1d953153808",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.conf.LazySettings.\lDEFAULT_FILE_STORAGE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1conf_1_1_lazy_settings.html#a262999dfae4088a806facff7288a28b2",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.conf.UserSettings\lHolder.__setattr__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1conf_1_1_user_settings_holder.html#ab7fbd1f7ca5be36af1f08f8cc543bd40",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node5 [id="edge5_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.conf.LazySettings.\lSTATICFILES_STORAGE",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1conf_1_1_lazy_settings.html#acf7e82a80fdd6a53ad31cd5f784aaaf7",tooltip=" "];
+  Node5 -> Node4 [id="edge6_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node1 [id="edge7_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}
