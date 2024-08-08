@@ -1,0 +1,13 @@
+digraph "django.db.models.options.Options.managers_map"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.models.options.\lOptions.managers_map",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.models.options.\lOptions.base_manager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1options_1_1_options.html#a9b9544f7c8fe037d23e9898b246e1753",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.models.options.\lOptions.default_manager",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1options_1_1_options.html#a500db63c25951a4ee6463961d3d8696e",tooltip=" "];
+}

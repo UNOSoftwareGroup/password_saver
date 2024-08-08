@@ -1,0 +1,14 @@
+digraph "django.db.models.fields.Field.get_choices"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.models.fields.\lField.get_choices",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.models.fields.\lBooleanField.formfield",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1fields_1_1_boolean_field.html#af37d409be823394375dcf0f083b2eb0b",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.models.fields.\lField.formfield",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1fields_1_1_field.html#a1822195647a4e308ad17ccbeab6ea120",tooltip=" "];
+}

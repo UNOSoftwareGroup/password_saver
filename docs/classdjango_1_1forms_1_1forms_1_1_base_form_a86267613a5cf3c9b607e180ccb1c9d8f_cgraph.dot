@@ -1,0 +1,15 @@
+digraph "django.forms.forms.BaseForm.add_initial_prefix"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.forms.forms.BaseForm.add\l_initial_prefix",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.models.query.Prefetch.add\l_prefix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1query_1_1_prefetch.html#afb4d279a423967d5f32da91385163ef5",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.forms.forms.BaseForm.add\l_prefix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1forms_1_1forms_1_1_base_form.html#ae40cfd5224bffe1e658208d9733eb1cf",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.forms.formsets.Base\lFormSet.add_prefix",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1forms_1_1formsets_1_1_base_form_set.html#a0498beaa50e1791022fde719a1e28ab8",tooltip=" "];
+}

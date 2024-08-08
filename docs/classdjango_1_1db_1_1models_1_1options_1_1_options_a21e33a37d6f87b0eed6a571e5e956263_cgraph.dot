@@ -1,0 +1,23 @@
+digraph "django.db.models.options.Options.db_returning_fields"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.models.options.\lOptions.db_returning_fields",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.models.options.\lOptions._get_fields",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1options_1_1_options.html#adfc7204d4c77a86927ad1988009a3fd5",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.models.options.\lOptions._relation_tree",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1options_1_1_options.html#a80c7d50b36ae27b75bab08c22aeafb8c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.db.models.options.\lOptions._populate_directed\l_relation_graph",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1options_1_1_options.html#aa5baf4782daedc5b55c3b91d7d145bae",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.db.migrations.state.\lProjectState.apps",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1state_1_1_project_state.html#a512f631936ae6b299fa822af8d84eb62",tooltip=" "];
+  Node2 -> Node6 [id="edge5_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.db.models.options.make\l_immutable_fields_list",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1db_1_1models_1_1options.html#ad6e15002f494024f2232d7e3eeb05100",tooltip=" "];
+  Node2 -> Node7 [id="edge6_Node000002_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.distlib.compat.\lChainMap.parents",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1distlib_1_1compat_1_1_chain_map.html#a94a17b661125532bd17a58047c244103",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pip._vendor.truststore.\l_api.SSLContext.__class__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1truststore_1_1__api_1_1_s_s_l_context.html#a530861514f31eabaa3f513557d6e66de",tooltip=" "];
+}

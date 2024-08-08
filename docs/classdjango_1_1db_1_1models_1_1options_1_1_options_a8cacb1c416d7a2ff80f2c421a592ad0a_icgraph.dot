@@ -1,0 +1,29 @@
+digraph "django.db.models.options.Options.label"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.models.options.\lOptions.label",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.apps.config.AppConfig.\l__repr__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1apps_1_1config_1_1_app_config.html#a38898f0772ad3084a5b2b3b4f5ef50ef",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.core.management.base.\lLabelCommand.add_arguments",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1management_1_1base_1_1_label_command.html#a98b987df765f27398ed8f8e80e166263",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.core.management.base.\lBaseCommand.create_parser",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1management_1_1base_1_1_base_command.html#ae878e488f18d67acf1037a7e2db5b478",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.core.management.base.\lBaseCommand.print_help",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1management_1_1base_1_1_base_command.html#a9f81b6c52db3a2b0a123ca7bdd0ee819",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.core.management.base.\lBaseCommand.run_from_argv",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1management_1_1base_1_1_base_command.html#a6c1cc5fc9ec35d268e45ebaadd2ac4a7",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="django.apps.config.AppConfig.get\l_model",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1apps_1_1config_1_1_app_config.html#a46f010efbdd492ef63948a40eddb04f0",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="django.apps.config.AppConfig.import\l_models",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1apps_1_1config_1_1_app_config.html#a03e1fc4a98c379e78cf004b7a9816015",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="django.db.migrations.state.\lAppConfigStub.import_models",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1state_1_1_app_config_stub.html#ae9cc956d1cc06a18f385ff9bd0141935",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="django.forms.boundfield.\lBoundField.label_tag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1forms_1_1boundfield_1_1_bound_field.html#a829d569a35642d06f95c7e0c41dc78f5",tooltip=" "];
+  Node10 -> Node11 [id="edge10_Node000010_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="django.forms.boundfield.\lBoundField.legend_tag",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1forms_1_1boundfield_1_1_bound_field.html#a25cc0aa646b39ab151126d89f6beafc5",tooltip=" "];
+}

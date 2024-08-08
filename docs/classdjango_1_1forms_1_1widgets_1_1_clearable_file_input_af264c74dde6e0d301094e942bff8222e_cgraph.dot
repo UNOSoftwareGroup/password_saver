@@ -1,0 +1,11 @@
+digraph "django.forms.widgets.ClearableFileInput.format_value"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.forms.widgets.Clearable\lFileInput.format_value",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.forms.widgets.Clearable\lFileInput.is_initial",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1forms_1_1widgets_1_1_clearable_file_input.html#a52859f8056ceab1e4727ca07e886f990",tooltip=" "];
+}

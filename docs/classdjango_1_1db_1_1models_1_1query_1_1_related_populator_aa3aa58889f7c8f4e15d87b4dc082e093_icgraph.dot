@@ -1,0 +1,11 @@
+digraph "django.db.models.query.RelatedPopulator.populate"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.models.query.Related\lPopulator.populate",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.apps.registry.Apps.set\l_installed_apps",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1apps_1_1registry_1_1_apps.html#ad0d9075ffe2253f2b0a3d13e95473c56",tooltip=" "];
+}

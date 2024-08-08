@@ -1,0 +1,11 @@
+digraph "django.db.migrations.autodetector.MigrationAutodetector._get_altered_foo_together_operations"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.migrations.autodetector.\lMigrationAutodetector._get\l_altered_foo_together_operations",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.migrations.autodetector.\lMigrationAutodetector._get\l_dependencies_for_foreign_key",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1autodetector_1_1_migration_autodetector.html#a349c6610cd9e186a0b21fa556c4fb52d",tooltip=" "];
+}

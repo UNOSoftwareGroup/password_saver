@@ -1,0 +1,15 @@
+digraph "django.db.backends.sqlite3.introspection.DatabaseIntrospection._parse_table_constraints"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.backends.sqlite3.introspection.\lDatabaseIntrospection._parse_table\l_constraints",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.backends.sqlite3.introspection.\lDatabaseIntrospection._parse_column\l_or_constraint_definition",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1sqlite3_1_1introspection_1_1_database_introspection.html#a155a6df9c176b3eb6ca8eab372767cf1",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sqlparse.parse",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse.html#af6eb69b9ebd7fcaf9cf66cfd45ac3d1a",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sqlparse.parsestream",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse.html#a1fd4e5436874b6c268a4a74dc0dacfcf",tooltip=" "];
+}

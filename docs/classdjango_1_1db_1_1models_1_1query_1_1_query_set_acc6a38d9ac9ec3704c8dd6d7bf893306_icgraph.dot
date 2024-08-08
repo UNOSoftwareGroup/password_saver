@@ -1,0 +1,15 @@
+digraph "django.db.models.query.QuerySet.adelete"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.models.query.Query\lSet.adelete",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.core.cache.backends.base.\lBaseCache.adelete_many",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1cache_1_1backends_1_1base_1_1_base_cache.html#a2a5e118c4b4a06f328bcf48a59f73a01",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.core.cache.backends.base.\lBaseCache.aincr_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1cache_1_1backends_1_1base_1_1_base_cache.html#a5bdde3e56edd5e24f410210663fe1ae3",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.core.cache.backends.base.\lBaseCache.adecr_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1cache_1_1backends_1_1base_1_1_base_cache.html#ae6123c950ffd55ff9a9bca126abcca9b",tooltip=" "];
+}

@@ -1,0 +1,14 @@
+digraph "django.db.models.sql.query.Query.names_to_path"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.models.sql.query.\lQuery.names_to_path",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.models.sql.query.\lQuery.annotation_select",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1models_1_1sql_1_1query_1_1_query.html#ad1aa29c1a1fec0a4c8e3e9de2c482498",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.models.sql.query.get\l_field_names_from_opts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1db_1_1models_1_1sql_1_1query.html#a00eeefd3d320d9c1902b8338e134dc42",tooltip=" "];
+  Node1 -> Node1 [id="edge3_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+}

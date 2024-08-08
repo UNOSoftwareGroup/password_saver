@@ -1,0 +1,15 @@
+digraph "django.db.backends.postgresql.operations.DatabaseOperations._convert_sql_to_tz"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.backends.postgresql.operations.\lDatabaseOperations._convert_sql_to_tz",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.backends.mysql.operations.\lDatabaseOperations._prepare\l_tzname_delta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1mysql_1_1operations_1_1_database_operations.html#ab4d5b9c094fe2b59ee19a3efb2a37746",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.backends.oracle.operations.\lDatabaseOperations._prepare_tzname_delta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1oracle_1_1operations_1_1_database_operations.html#aa6e700a692efc0597932646ca41f55ef",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.db.backends.postgresql.operations.\lDatabaseOperations._prepare_tzname_delta",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1postgresql_1_1operations_1_1_database_operations.html#a0824efa96e0b55f4f233f80ff04d899f",tooltip=" "];
+}

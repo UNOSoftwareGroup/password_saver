@@ -1,0 +1,17 @@
+digraph "django.db.migrations.operations.fields.RenameField.database_backwards"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.migrations.operations.fields.\lRenameField.database_backwards",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.migrations.operations.base.\lOperation.allow_migrate_model",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1operations_1_1base_1_1_operation.html#ae9ccd8dda6ac5380e583c6c53ed66445",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.utils.Connection\lRouter.allow_migrate_model",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1utils_1_1_connection_router.html#affc0a7f7419e1ae0ad00101310abfc5f",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.db.utils.Connection\lRouter.allow_migrate",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1utils_1_1_connection_router.html#a05dfcfc3342bd064f71d69e9abcae2fd",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.db.utils.Connection\lRouter.routers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1utils_1_1_connection_router.html#acddbbfc27aa31281f9c44e59978cdd57",tooltip=" "];
+}

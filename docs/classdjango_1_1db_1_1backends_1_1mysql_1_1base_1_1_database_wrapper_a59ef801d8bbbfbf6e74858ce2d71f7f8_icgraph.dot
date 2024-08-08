@@ -1,0 +1,17 @@
+digraph "django.db.backends.mysql.base.DatabaseWrapper._rollback"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.backends.mysql.base.\lDatabaseWrapper._rollback",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.http.multipartparser.\lBoundaryIter.__next__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1http_1_1multipartparser_1_1_boundary_iter.html#ac6ccf0b1b2d7d6d05f12e2b01b0f0c94",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.backends.base.base.\lBaseDatabaseWrapper.rollback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1base_1_1base_1_1_base_database_wrapper.html#a0b1436b5fb1063926158ecf80bce9680",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.db.backends.base.base.\lBaseDatabaseWrapper._rollback",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1base_1_1base_1_1_base_database_wrapper.html#a53ebab8ea5c3038508dd1b03704729a3",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node3 [id="edge5_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

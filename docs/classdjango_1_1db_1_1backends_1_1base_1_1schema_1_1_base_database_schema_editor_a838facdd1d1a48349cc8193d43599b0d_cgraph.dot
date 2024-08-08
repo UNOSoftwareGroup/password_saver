@@ -1,0 +1,35 @@
+digraph "django.db.backends.base.schema.BaseDatabaseSchemaEditor._column_generated_sql"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.backends.base.schema.\lBaseDatabaseSchemaEditor.\l_column_generated_sql",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.utils.log.AdminEmail\lHandler.connection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1utils_1_1log_1_1_admin_email_handler.html#a545b5f7ec55a857fe1ca7836814a0760",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.urllib3.response.\lHTTPResponse.connection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1response_1_1_h_t_t_p_response.html#a9002314624685de3bbf9b84bdc87fef8",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.contrib.gis.db.backends.mysql.schema.\lMySQLGISSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1mysql_1_1schema_1_1_my_s_q_l_g_i_s_schema_editor.html#a39d45c8fce900a986a0d01d83ce73f16",tooltip=" "];
+  Node4 -> Node2 [id="edge4_Node000004_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node3 [id="edge5_Node000004_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge6_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.contrib.gis.db.backends.oracle.schema.\lOracleGISSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1oracle_1_1schema_1_1_oracle_g_i_s_schema_editor.html#ae0a937224957c04ded45c150d14f26df",tooltip=" "];
+  Node5 -> Node2 [id="edge7_Node000005_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node3 [id="edge8_Node000005_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge9_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.db.backends.base.schema.\lBaseDatabaseSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1base_1_1schema_1_1_base_database_schema_editor.html#a226cbde36f828256e698cab6fc076a46",tooltip=" "];
+  Node1 -> Node7 [id="edge10_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="django.db.backends.mysql.schema.\lDatabaseSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1mysql_1_1schema_1_1_database_schema_editor.html#ac42d8e597e244107c562b0816741ca00",tooltip=" "];
+  Node7 -> Node2 [id="edge11_Node000007_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node3 [id="edge12_Node000007_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge13_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="django.db.backends.oracle.schema.\lDatabaseSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1oracle_1_1schema_1_1_database_schema_editor.html#a74a7b87c4d11359d183c468c09ca48bb",tooltip=" "];
+  Node1 -> Node9 [id="edge14_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="django.db.backends.postgresql.schema.\lDatabaseSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1postgresql_1_1schema_1_1_database_schema_editor.html#aa15ddd5685a773da906a658db4b619c0",tooltip=" "];
+  Node9 -> Node2 [id="edge15_Node000009_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node9 -> Node3 [id="edge16_Node000009_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node10 [id="edge17_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="django.db.backends.sqlite3.schema.\lDatabaseSchemaEditor.quote_value",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1sqlite3_1_1schema_1_1_database_schema_editor.html#a1ce01718398ef906bf3becf8517006f2",tooltip=" "];
+}

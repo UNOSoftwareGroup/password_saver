@@ -1,0 +1,15 @@
+digraph "django.db.migrations.questioner.InteractiveMigrationQuestioner._boolean_input"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.db.migrations.questioner.\lInteractiveMigrationQuestioner.\l_boolean_input",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.migrations.questioner.\lInteractiveMigrationQuestioner.ask_merge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1questioner_1_1_interactive_migration_questioner.html#ae0b5c8c395222f9049d50e8e8c0aa0a3",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.migrations.questioner.\lInteractiveMigrationQuestioner.ask_rename",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1questioner_1_1_interactive_migration_questioner.html#a802d247013647972ec0852f6843f6e60",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.db.migrations.questioner.\lInteractiveMigrationQuestioner.ask\l_rename_model",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1questioner_1_1_interactive_migration_questioner.html#a702f83b4343e6d5465b2ee560616cbf3",tooltip=" "];
+}

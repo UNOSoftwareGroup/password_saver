@@ -1,0 +1,18 @@
+digraph "django.db.backends.sqlite3.creation.DatabaseCreation.get_test_db_clone_settings"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.backends.sqlite3.creation.\lDatabaseCreation.get_test_db\l_clone_settings",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.utils.log.AdminEmail\lHandler.connection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1utils_1_1log_1_1_admin_email_handler.html#a545b5f7ec55a857fe1ca7836814a0760",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.urllib3.response.\lHTTPResponse.connection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1response_1_1_h_t_t_p_response.html#a9002314624685de3bbf9b84bdc87fef8",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.db.backends.sqlite3.base.\lDatabaseWrapper.is_in_memory_db",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1sqlite3_1_1base_1_1_database_wrapper.html#a19e528b4a06984b0688159b73ad80b0d",tooltip=" "];
+  Node4 -> Node4 [id="edge4_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.db.backends.sqlite3.creation.\lDatabaseCreation.is_in_memory_db",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1backends_1_1sqlite3_1_1creation_1_1_database_creation.html#a401e67caff65e9049f387f639ceb6402",tooltip=" "];
+}

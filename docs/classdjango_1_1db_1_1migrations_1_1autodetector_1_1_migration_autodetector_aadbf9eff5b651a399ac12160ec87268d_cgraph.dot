@@ -1,0 +1,13 @@
+digraph "django.db.migrations.autodetector.MigrationAutodetector._sort_migrations"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.migrations.autodetector.\lMigrationAutodetector._sort\l_migrations",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.migrations.autodetector.\lMigrationAutodetector._resolve\l_dependency",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1autodetector_1_1_migration_autodetector.html#acc8b2e0c968b56ed2e12115feaececcb",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.db.migrations.autodetector.\lMigrationAutodetector.check\l_dependency",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1autodetector_1_1_migration_autodetector.html#ac815919af3b9cbeb745bff957f72a832",tooltip=" "];
+}

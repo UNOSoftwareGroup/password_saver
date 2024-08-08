@@ -1,0 +1,21 @@
+digraph "django.db.migrations.executor.MigrationExecutor._migrate_all_forwards"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.migrations.executor.\lMigrationExecutor._migrate\l_all_forwards",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.migrations.executor.\lMigrationExecutor.apply_migration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1executor_1_1_migration_executor.html#a5fb41ce1752ad66bbd077781881cc1b7",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.utils.log.AdminEmail\lHandler.connection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1utils_1_1log_1_1_admin_email_handler.html#a545b5f7ec55a857fe1ca7836814a0760",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.urllib3.response.\lHTTPResponse.connection",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1response_1_1_h_t_t_p_response.html#a9002314624685de3bbf9b84bdc87fef8",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.db.migrations.executor.\lMigrationExecutor.detect\l_soft_applied",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1executor_1_1_migration_executor.html#ae5187f7d12375bec66bd59e906b6fa84",tooltip=" "];
+  Node5 -> Node3 [id="edge5_Node000005_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node4 [id="edge6_Node000005_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node2 -> Node6 [id="edge7_Node000002_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.db.migrations.executor.\lMigrationExecutor.record\l_migration",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1db_1_1migrations_1_1executor_1_1_migration_executor.html#a17528206250c4c61af03400234fe3991",tooltip=" "];
+}

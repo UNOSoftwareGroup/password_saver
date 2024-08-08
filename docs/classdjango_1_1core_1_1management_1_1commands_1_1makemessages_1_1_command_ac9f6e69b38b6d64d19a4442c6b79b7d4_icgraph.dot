@@ -1,0 +1,11 @@
+digraph "django.core.management.commands.makemessages.Command.copy_plural_forms"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.core.management.commands.makemessages.\lCommand.copy_plural_forms",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.core.management.commands.makemessages.\lCommand.write_po_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1management_1_1commands_1_1makemessages_1_1_command.html#a6bdea65ad45825c790d4079b72c6e835",tooltip=" "];
+}
