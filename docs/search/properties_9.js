@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['name_0',['Name',['../class_pricing_augmentation_function_app_1_1_data_1_1_condition.html#aab23a92861ae660ac94b6d24a7272d77',1,'PricingAugmentationFunctionApp.Data.Condition.Name'],['../class_pricing_augmentation_function_app_1_1_data_1_1_condition_dto.html#a1bc2145d73f9c2c512c38987b792e751',1,'PricingAugmentationFunctionApp.Data.ConditionDto.Name'],['../class_pricing_augmentation_function_app_1_1_data_1_1_customer.html#ab24be35d3957d3fc5b81b6732707d2d3',1,'PricingAugmentationFunctionApp.Data.Customer.Name'],['../class_pricing_augmentation_function_app_1_1_data_1_1_tree_condition.html#a5c5ba0e8c0b620d29e98ef993cc36556',1,'PricingAugmentationFunctionApp.Data.TreeCondition.Name'],['../class_pricing_augmentation_function_app_1_1_data_1_1_tree_dto.html#abc1399b17687286fb3f1543c8631dc70',1,'PricingAugmentationFunctionApp.Data.TreeDto.Name']]],
+  ['newparentid_1',['NewParentId',['../class_pricing_augmentation_function_app_1_1_data_1_1_copy_condition_request.html#a79bc50c74a27ce036fe6753faf04d8fe',1,'PricingAugmentationFunctionApp::Data::CopyConditionRequest']]]
+];

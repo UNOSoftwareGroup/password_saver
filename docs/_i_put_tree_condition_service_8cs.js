@@ -1,0 +1,4 @@
+var _i_put_tree_condition_service_8cs =
+[
+    [ "PricingAugmentationFunctionApp.Contracts.IPutTreeConditionService", "interface_pricing_augmentation_function_app_1_1_contracts_1_1_i_put_tree_condition_service.html", "interface_pricing_augmentation_function_app_1_1_contracts_1_1_i_put_tree_condition_service" ]
+];

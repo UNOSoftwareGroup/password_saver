@@ -1,10 +1,10 @@
+# forms.py
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from Password_Saver.models import AccountInfo, Folder
 from django.forms import ValidationError
 from Password_Saver.encrypt_decrypt import encrypt
-
 
 class RegistrationForm(UserCreationForm):
     username = forms.CharField(label="User name", max_length=200, widget=forms.TextInput(attrs={"placeholder": "Username", "class": "form-control"}))
@@ -19,7 +19,6 @@ class RegistrationForm(UserCreationForm):
     def __str__(self):
         return self.username
 
-
 class LoginForm(forms.ModelForm):
     username = forms.CharField(max_length=200, widget=forms.TextInput(attrs={"placeholder": "Username", "class": "form-control"}))
     password = forms.CharField(label="Password", widget=forms.PasswordInput(attrs={"placeholder": "Password", "class": "form-control"}))
@@ -28,20 +27,19 @@ class LoginForm(forms.ModelForm):
         model = User
         fields = ('username', 'password')
 
-
 class FolderForm(forms.ModelForm):
     class Meta:
         model = Folder
         fields = ['name']
 
-
 class AccountInfoForm(forms.ModelForm):
     password = forms.CharField(label="Password", widget=forms.PasswordInput())
     folder = forms.ModelChoiceField(queryset=Folder.objects.none(), required=False)
+    reminder_date = forms.DateField(widget=forms.SelectDateWidget, required=False)  # Add this line
 
     class Meta:
         model = AccountInfo
-        fields = ('account_name', 'user_name', 'password', 'folder')
+        fields = ('account_name', 'user_name', 'password', 'folder', 'reminder_date')  # Update this line
 
     def __init__(self, user, *args, **kwargs):
         self.user = user
@@ -63,4 +61,3 @@ class AccountInfoForm(forms.ModelForm):
                 acc_name = i.get("account_name")
                 if acc_name.strip().lower() == form_acc_name.strip().lower():
                     raise ValidationError("This account info already exists!")
-

@@ -1,0 +1,12 @@
+digraph "C:/Users/LukeMabie/documents/Development/PricingAugmentationFunctionApp/PricingAugmentationFunctionApp/obj/Release/net6.0"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_a9a2684fd010ec0abcd73f636e188e87 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Release", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_a9a2684fd010ec0abcd73f636e188e87.html",tooltip=""]
+  dir_2091d6369472e11f48fae1ffc84e5a1d [label="net6.0", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_2091d6369472e11f48fae1ffc84e5a1d.html",tooltip=""];
+  }
+}
