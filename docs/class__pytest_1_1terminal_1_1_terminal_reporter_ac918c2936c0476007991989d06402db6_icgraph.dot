@@ -1,0 +1,26 @@
+digraph "_pytest.terminal.TerminalReporter._handle_teardown_sections"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.terminal.Terminal\lReporter._handle_teardown\l_sections",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.terminal.Terminal\lReporter.summary_failures\l_combined",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ad20b949192951f8b34af543cc02e5563",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.terminal.Terminal\lReporter.summary_failures",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a9419b1c40e6bd5d57fe0b809c7d62e70",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.terminal.Terminal\lReporter.pytest_terminal\l_summary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a06c849232bc131c5cd8d4ccbe70d00ca",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.terminal.Terminal\lReporter.summary_xfailures",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a4af4c429cb7b7b61b43dfd701cd790c3",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pytest.terminal.Terminal\lReporter.summary_passes\l_combined",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a780d88276e9e69e02425ada65dcf79ae",tooltip=" "];
+  Node6 -> Node7 [id="edge7_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pytest.terminal.Terminal\lReporter.summary_passes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a5815eeed8b4401071e74c9817e4cafaf",tooltip=" "];
+  Node7 -> Node4 [id="edge8_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node8 [id="edge9_Node000006_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pytest.terminal.Terminal\lReporter.summary_xpasses",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#acb8487d12af0188f8e0b371292869663",tooltip=" "];
+  Node8 -> Node4 [id="edge10_Node000008_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

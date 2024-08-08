@@ -1,0 +1,13 @@
+digraph "django.contrib.contenttypes.models.ContentTypeManager._get_from_cache"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.contrib.contenttypes.models.\lContentTypeManager._get_from_cache",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.contenttypes.models.\lContentTypeManager.get_for_model",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1contenttypes_1_1models_1_1_content_type_manager.html#a1b89bc07df6111e44f749d556f96a414",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.contrib.contenttypes.models.\lContentTypeManager.get_for_models",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1contenttypes_1_1models_1_1_content_type_manager.html#a541a2e215680799739b6f8c1b19ddda4",tooltip=" "];
+}

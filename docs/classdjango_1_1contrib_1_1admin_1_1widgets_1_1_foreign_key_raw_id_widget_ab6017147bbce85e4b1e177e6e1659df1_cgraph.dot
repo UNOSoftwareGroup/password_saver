@@ -1,0 +1,13 @@
+digraph "django.contrib.admin.widgets.ForeignKeyRawIdWidget.url_parameters"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.contrib.admin.widgets.\lForeignKeyRawIdWidget.url\l_parameters",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.admin.widgets.\lForeignKeyRawIdWidget.base\l_url_parameters",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1widgets_1_1_foreign_key_raw_id_widget.html#a6c536f1be6942a3c15fc28ffa8839735",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.contrib.admin.widgets.url\l_params_from_lookup_dict",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1contrib_1_1admin_1_1widgets.html#a3ce551c41e0fb99127765888f6963e53",tooltip=" "];
+}

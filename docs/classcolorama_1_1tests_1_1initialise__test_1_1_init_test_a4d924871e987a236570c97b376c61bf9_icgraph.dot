@@ -1,0 +1,34 @@
+digraph "colorama.tests.initialise_test.InitTest.assertNotWrapped"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="colorama.tests.initialise\l_test.InitTest.assertNotWrapped",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="colorama.tests.initialise\l_test.InitTest.setUp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1tests_1_1initialise__test_1_1_init_test.html#a8504174ea7ecfbc852dc1e7bd7ee029c",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.test.utils.TestContext\lDecorator.decorate_class",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1utils_1_1_test_context_decorator.html#ad812bd185e2d8ce65644fd891d244450",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.test.utils.TestContext\lDecorator.__call__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1utils_1_1_test_context_decorator.html#a1c98e4d22762e400f27efe3d3d05915f",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="asgiref.sync.AsyncToSync.\l__get__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1sync_1_1_async_to_sync.html#a23e9ef7a73da98dad9e3f4e65846969b",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="asgiref.sync.SyncToAsync.\l__get__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1sync_1_1_sync_to_async.html#aebdfbe3f01079a529fd2f39810597381",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.colorama.tests.initialise\l_test.InitTest.setUp",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1tests_1_1initialise__test_1_1_init_test.html#aa87b02b81df62aa9524e0cdaca08ae6c",tooltip=" "];
+  Node7 -> Node3 [id="edge7_Node000007_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="colorama.tests.initialise\l_test.InitTest.testInitDoesntWrap\lOnEmulatedWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1tests_1_1initialise__test_1_1_init_test.html#ad7e67610407f6df1247c986213edc3be",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="pip._vendor.colorama.tests.initialise\l_test.InitTest.testInitDoesntWrapOnEmulated\lWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1tests_1_1initialise__test_1_1_init_test.html#abf962b1ffcf4a1c3faaa279969039ad4",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="colorama.tests.initialise\l_test.InitTest.testInitDoesntWrap\lOnNonWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1tests_1_1initialise__test_1_1_init_test.html#a6a30aa3435ab68f5d55ef0e9cbc895fd",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="pip._vendor.colorama.tests.initialise\l_test.InitTest.testInitDoesntWrapOnNon\lWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1tests_1_1initialise__test_1_1_init_test.html#a474cfb3392623da197ed26c2f8d530a3",tooltip=" "];
+  Node1 -> Node12 [id="edge12_Node000001_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="colorama.tests.initialise\l_test.InitTest.testInitWrapOff\lDoesntWrapOnWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1tests_1_1initialise__test_1_1_init_test.html#adf92cfbd19e0362a1960f87098b4ac7a",tooltip=" "];
+  Node1 -> Node13 [id="edge13_Node000001_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="pip._vendor.colorama.tests.initialise\l_test.InitTest.testInitWrapOffDoesntWrap\lOnWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1tests_1_1initialise__test_1_1_init_test.html#ae743d1553ccfd4688219f8a92f96300b",tooltip=" "];
+}

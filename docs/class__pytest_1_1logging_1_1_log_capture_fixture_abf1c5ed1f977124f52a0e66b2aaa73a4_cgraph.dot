@@ -1,0 +1,13 @@
+digraph "_pytest.logging.LogCaptureFixture.set_level"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pytest.logging.LogCapture\lFixture.set_level",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.logging.LogCapture\lFixture._force_enable_logging",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1logging_1_1_log_capture_fixture.html#ad952a468856938debd8d2b2fd2ad82ec",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.logging.LogCapture\lFixture.handler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1logging_1_1_log_capture_fixture.html#aefb88ce398bf05b25fddabd6dbafa486",tooltip=" "];
+}

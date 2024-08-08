@@ -1,0 +1,13 @@
+digraph "_pytest._io.terminalwriter.TerminalWriter._highlight"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pytest._io.terminalwriter.\lTerminalWriter._highlight",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest._io.terminalwriter.\lTerminalWriter._get_pygments\l_formatter",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1__io_1_1terminalwriter_1_1_terminal_writer.html#aaf4000da9f62325999edfa7a6db952d2",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest._io.terminalwriter.\lTerminalWriter._get_pygments_lexer",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1__io_1_1terminalwriter_1_1_terminal_writer.html#aa8412a911c131afbc858bdce60d75da0",tooltip=" "];
+}

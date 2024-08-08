@@ -1,0 +1,29 @@
+digraph "django.contrib.admin.options.ModelAdmin._get_action_description"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.contrib.admin.options.\lModelAdmin._get_action_description",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.admin.options.\lModelAdmin._get_base_actions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#a85aa98976c58df21cdcdd31c3d26824e",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.contrib.admin.options.\lModelAdmin.get_actions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#a81348038a0389c01181a4a3304e63550",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.contrib.admin.options.\lModelAdmin.changelist_view",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#af5f3d8010317ded7325e649561a4d909",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.contrib.admin.options.\lModelAdmin.get_action_choices",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#a3f1e1eae5cba4701368ea64ebb29ae6f",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 -> Node6 [id="edge6_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.contrib.admin.options.\lModelAdmin.response_action",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#af77f652a1368bfc302ca5f04f8d3e241",tooltip=" "];
+  Node6 -> Node4 [id="edge7_Node000006_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node7 [id="edge8_Node000003_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="django.contrib.admin.options.\lModelAdmin.get_changelist\l_instance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#a3c3125f566115bda9ef57b9863bd3b5c",tooltip=" "];
+  Node7 -> Node4 [id="edge9_Node000007_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node6 [id="edge10_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge11_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="django.contrib.admin.options.\lModelAdmin.get_action",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1options_1_1_model_admin.html#aceb94c52a17e5c8ffa51f7c24cfe9377",tooltip=" "];
+  Node8 -> Node2 [id="edge12_Node000008_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node8 [id="edge13_Node000008_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

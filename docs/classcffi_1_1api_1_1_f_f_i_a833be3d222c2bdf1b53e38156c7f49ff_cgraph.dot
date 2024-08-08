@@ -1,0 +1,25 @@
+digraph "cffi.api.FFI.addressof"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="cffi.api.FFI.addressof",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="cffi.api.FFI._pointer_to",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#a81cfc05444a1a37cf929289eef902922",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="cffi.api.FFI._typeoffsetof",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#ac48e568ec9ab730f59294def17f06f6a",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="cffi.api.FFI.typeof",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#ab8edf3725c8266273a6ca03d3cb5c9d7",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="cffi.api._builtin_function_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacecffi_1_1api.html#a24b05f289e4610c5c6e1bf1c6ba15dde",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="cffi.api.FFI._get_cached\l_btype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#a0f956670cd48a5442fb5cad7cba46b53",tooltip=" "];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="cffi.api.FFI._typeof",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#ae128b7679d5b0a942d275377c4c675ff",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="cffi.api.FFI._typeof\l_locked",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#a464c07e3916dd91d26ab4647d593fd57",tooltip=" "];
+  Node8 -> Node6 [id="edge8_Node000008_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node4 [id="edge9_Node000004_Node000004",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,15 @@
+digraph "_pytest.logging.LoggingPlugin._runtest_for"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.logging.LoggingPlugin.\l_runtest_for",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.logging.LoggingPlugin.pytest\l_runtest_call",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1logging_1_1_logging_plugin.html#ae224227a16a36765e1e0ba4573564c2a",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.logging.LoggingPlugin.pytest\l_runtest_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1logging_1_1_logging_plugin.html#ab546feed75befded98c63dbb901144e3",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.logging.LoggingPlugin.pytest\l_runtest_teardown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1logging_1_1_logging_plugin.html#aff002eded54cd3cb506fdc23974a8784",tooltip=" "];
+}

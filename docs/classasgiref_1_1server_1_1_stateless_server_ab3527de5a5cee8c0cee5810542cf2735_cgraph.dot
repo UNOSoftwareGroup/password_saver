@@ -1,0 +1,15 @@
+digraph "asgiref.server.StatelessServer.get_or_create_application_instance"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="asgiref.server.Stateless\lServer.get_or_create_application\l_instance",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Application instance management."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="asgiref.server.Stateless\lServer.application_send",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1server_1_1_stateless_server.html#a2fd6c0b8f7f5d812d844b215fbab3dc9",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="asgiref.server.Stateless\lServer.delete_oldest_application\l_instance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1server_1_1_stateless_server.html#a0767cb68e1de116205ea2b1f43d70f0f",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="asgiref.server.Stateless\lServer.delete_application\l_instance",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1server_1_1_stateless_server.html#a09f75080636a97cc1065277baaf88e10",tooltip=" "];
+}

@@ -1,0 +1,19 @@
+digraph "_pytest.capture.CaptureManager.read_global_capture"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.capture.CaptureManager.read\l_global_capture",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.capture.CaptureManager.item\l_capture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1capture_1_1_capture_manager.html#a10f883d593928bcd99ae753af22fc7dc",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.capture.CaptureManager.pytest\l_runtest_call",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1capture_1_1_capture_manager.html#a31667a37a8d71c2eb2dd5c98dbb90d2c",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.capture.CaptureManager.pytest\l_runtest_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1capture_1_1_capture_manager.html#a22c370d62beaea527a64b1bbb490c619",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.capture.CaptureManager.pytest\l_runtest_teardown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1capture_1_1_capture_manager.html#aece87af1617bbc88530e5d50281da4e6",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pytest.capture.CaptureManager.pytest\l_make_collect_report",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1capture_1_1_capture_manager.html#ac794c47f7cee86db194187665cfd7702",tooltip=" "];
+}

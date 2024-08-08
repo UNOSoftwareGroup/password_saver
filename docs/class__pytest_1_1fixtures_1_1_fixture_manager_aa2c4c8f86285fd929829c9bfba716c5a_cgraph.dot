@@ -1,0 +1,23 @@
+digraph "_pytest.fixtures.FixtureManager.getfixtureinfo"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pytest.fixtures.Fixture\lManager.getfixtureinfo",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.fixtures._get\l_direct_parametrize_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1fixtures.html#a69135e91e89f3bc5e89951b3b70345e9",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.fixtures.Fixture\lManager._getautousenames",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_manager.html#a52d88aa7ff48c775905de2037d6b3d9e",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.fixtures.Fixture\lManager._getusefixturesnames",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_manager.html#ad5d7f844ffb7056d6e60f7994546a17f",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.fixtures.deduplicate\l_names",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1fixtures.html#a3c328543b9d3bbd9af519ee1796f7a94",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pytest.fixtures.Fixture\lManager.getfixtureclosure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_manager.html#ac9310f685e1473935a9f14f611e836ad",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pytest.fixtures.Fixture\lManager.getfixturedefs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_manager.html#a85d2912f3fa129a50945cfab083bf70e",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pytest.fixtures.Fixture\lManager._matchfactories",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_manager.html#a5fbecbcf378a0824f41510bd05b7b38b",tooltip=" "];
+}

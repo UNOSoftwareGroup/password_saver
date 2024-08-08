@@ -1,0 +1,15 @@
+digraph "_pytest.terminal.TerminalReporter._add_stats"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.terminal.Terminal\lReporter._add_stats",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.terminal.Terminal\lReporter.pytest_collectreport",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a9eb06df608c4a08d1c831cfc5a405eec",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.terminal.Terminal\lReporter.pytest_deselected",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ae42ef4753b861bf9e53a81f09f7f6ad8",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.terminal.Terminal\lReporter.pytest_warning\l_recorded",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ad9996f81c33a9d8087202659b15ea555",tooltip=" "];
+}

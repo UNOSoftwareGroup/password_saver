@@ -1,0 +1,11 @@
+digraph "asgiref.wsgi.WsgiToAsgiInstance.build_environ"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="asgiref.wsgi.WsgiToAsgiInstance.build\l_environ",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="asgiref.wsgi.WsgiToAsgiInstance.run\l_wsgi_app",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1wsgi_1_1_wsgi_to_asgi_instance.html#a7f714529cfcc2d82661768b3a5386771",tooltip=" "];
+}

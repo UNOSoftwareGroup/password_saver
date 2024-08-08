@@ -1,0 +1,13 @@
+digraph "colorama.winterm.WinTerm.cursor_adjust"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="colorama.winterm.WinTerm.cursor\l_adjust",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="colorama.winterm.WinTerm.get\l_position",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1winterm_1_1_win_term.html#ae4edfe2b4476bff79b9a7ae197bbfff8",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.colorama.winterm.\lWinTerm.get_position",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1winterm_1_1_win_term.html#a98c1c730eb9fcb31c25265197949450e",tooltip=" "];
+}

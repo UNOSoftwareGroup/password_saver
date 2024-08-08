@@ -1,0 +1,52 @@
+digraph "_pytest.terminal.TerminalReporter.summary_xfailures"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pytest.terminal.Terminal\lReporter.summary_xfailures",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.fixtures.Fixture\lRequest.config",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_request.html#a9ed7b83923283e6cc50ae1c56f68b36d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.rich.theme.Theme.config",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1theme_1_1_theme.html#a66944133178df92a2cc2793b6053a2ea",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.terminal.Terminal\lReporter.summary_failures\l_combined",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ad20b949192951f8b34af543cc02e5563",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.terminal.Terminal\lReporter._getcrashline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ab563521f8bde6dc2013c2c4b05ca792c",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pytest.terminal.Terminal\lReporter._getfailureheadline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a80ad8cd36f51b29519de5757ad83eee8",tooltip=" "];
+  Node4 -> Node7 [id="edge6_Node000004_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pytest.terminal.Terminal\lReporter._handle_teardown\l_sections",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ac918c2936c0476007991989d06402db6",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pytest.terminal.Terminal\lReporter._get_teardown\l_reports",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a380b1b2e292a468e8a06368ff820ffba",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="_pytest.pytester.HookRecorder.getreports",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_hook_recorder.html#a199ab40398a2aacd3d8944fa3d1218a0",tooltip=" "];
+  Node8 -> Node10 [id="edge9_Node000008_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="_pytest.pytester.HookRecorder.getreports",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_hook_recorder.html#a0d75c78557d9ef257b85021a5fec5edf",tooltip=" "];
+  Node8 -> Node11 [id="edge10_Node000008_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="_pytest.pytester.HookRecorder.getreports",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_hook_recorder.html#a5bfa612d18dfe54b3a34ae68e90a0205",tooltip=" "];
+  Node8 -> Node12 [id="edge11_Node000008_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="_pytest.terminal.Terminal\lReporter.getreports",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a99b50546b3b880f002702bf08c6dcb4a",tooltip=" "];
+  Node7 -> Node13 [id="edge12_Node000007_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="_pytest.terminal.Terminal\lReporter.print_teardown\l_sections",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#adb076e608d74814573e2613e833522ce",tooltip=" "];
+  Node13 -> Node2 [id="edge13_Node000013_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node13 -> Node3 [id="edge14_Node000013_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node14 [id="edge15_Node000004_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="_pytest.terminal.Terminal\lReporter._outrep_summary",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#ae02e206f90b75b18a6ba77b800118e10",tooltip=" "];
+  Node14 -> Node2 [id="edge16_Node000014_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node14 -> Node3 [id="edge17_Node000014_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node9 [id="edge18_Node000004_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node10 [id="edge19_Node000004_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node11 [id="edge20_Node000004_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node12 [id="edge21_Node000004_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node4 -> Node15 [id="edge22_Node000004_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="_pytest.terminal.Terminal\lReporter.hasopt",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a90061a8fee16c73ad1b543e51bc6d115",tooltip=" "];
+  Node4 -> Node16 [id="edge23_Node000004_Node000016",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="_pytest.terminal.Terminal\lReporter.write_line",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a0322712c2fc4c8a9660c4cb095ad7b0e",tooltip=" "];
+  Node16 -> Node17 [id="edge24_Node000016_Node000017",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="_pytest.terminal.Terminal\lReporter.ensure_newline",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#a069d37abf7eb372c574fe56266e97e54",tooltip=" "];
+  Node4 -> Node18 [id="edge25_Node000004_Node000018",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="_pytest.terminal.Terminal\lReporter.write_sep",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1terminal_1_1_terminal_reporter.html#aab8812ee24a035bc88a00ef22634921d",tooltip=" "];
+  Node18 -> Node17 [id="edge26_Node000018_Node000017",color="steelblue1",style="solid",tooltip=" "];
+}

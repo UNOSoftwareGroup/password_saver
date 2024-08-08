@@ -1,0 +1,11 @@
+digraph "asgiref.current_thread_executor.CurrentThreadExecutor._submit"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="asgiref.current_thread\l_executor.CurrentThreadExecutor.\l_submit",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="asgiref.current_thread\l_executor.CurrentThreadExecutor.submit",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1current__thread__executor_1_1_current_thread_executor.html#a5a3e90b0405bf2dd3416eb9a9466dba9",tooltip=" "];
+}

@@ -1,0 +1,13 @@
+digraph "cffi.api.FFI._typeoffsetof"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="cffi.api.FFI._typeoffsetof",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="cffi.api.FFI.addressof",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#a833be3d222c2bdf1b53e38156c7f49ff",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="cffi.api.FFI.offsetof",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1api_1_1_f_f_i.html#ae496642d5b7aea3754059bfc920041f8",tooltip=" "];
+}

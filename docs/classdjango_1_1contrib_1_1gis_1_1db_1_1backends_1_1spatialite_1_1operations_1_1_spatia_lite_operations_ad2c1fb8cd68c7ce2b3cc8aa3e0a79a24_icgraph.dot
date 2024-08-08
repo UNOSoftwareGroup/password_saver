@@ -1,0 +1,19 @@
+digraph "django.contrib.gis.db.backends.spatialite.operations.SpatiaLiteOperations.rttopo_version"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.contrib.gis.db.backends.spatialite.operations.\lSpatiaLiteOperations.rttopo_version",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.gis.db.backends.spatialite.operations.\lSpatiaLiteOperations.geom_lib_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1spatialite_1_1operations_1_1_spatia_lite_operations.html#a48c1db4f2c021bbfcb5654632d8cb6e8",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.contrib.gis.db.backends.spatialite.operations.\lSpatiaLiteOperations.unsupported_functions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1spatialite_1_1operations_1_1_spatia_lite_operations.html#ad666e7323224656d124d7f955760ec9d",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.contrib.gis.db.backends.base.operations.\lBaseSpatialOperations.spatial_function_name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1base_1_1operations_1_1_base_spatial_operations.html#a36337d377ac4c4e7e22798b5a7e72838",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.contrib.gis.db.backends.base.operations.\lBaseSpatialOperations.get_geom_placeholder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1base_1_1operations_1_1_base_spatial_operations.html#a14cc02a2095279616cf7d9cec2ea44a8",tooltip=" "];
+  Node4 -> Node6 [id="edge5_Node000004_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.contrib.gis.db.backends.postgis.operations.\lPostGISOperations.get_geom_placeholder",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1gis_1_1db_1_1backends_1_1postgis_1_1operations_1_1_post_g_i_s_operations.html#a274b8700907b6ee5fe5d1637405cc1a9",tooltip=" "];
+}

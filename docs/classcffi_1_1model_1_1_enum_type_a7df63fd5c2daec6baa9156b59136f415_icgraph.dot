@@ -1,0 +1,23 @@
+digraph "cffi.model.EnumType.build_baseinttype"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="cffi.model.EnumType.build\l_baseinttype",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="cffi.model.EnumType.build\l_backend_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1model_1_1_enum_type.html#af1663f2a58d6276d1ba973fd3dc02562",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="cffi.model.BaseTypeByIdentity.get\l_cached_btype",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1model_1_1_base_type_by_identity.html#a95c748bcf370cdb1a55ae29c95bb01dc",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="cffi.model.ArrayType.build\l_backend_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1model_1_1_array_type.html#ab1bf9b41b5139d730aafc23d27d71316",tooltip=" "];
+  Node4 -> Node3 [id="edge4_Node000004_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="cffi.model.FunctionPtrType.build\l_backend_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1model_1_1_function_ptr_type.html#a6ecb2b2c5d0ca96ff63185042b7165b9",tooltip=" "];
+  Node5 -> Node3 [id="edge6_Node000005_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node6 [id="edge7_Node000003_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="cffi.model.PointerType.build\l_backend_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1model_1_1_pointer_type.html#a440d41bc9ee99d0da3704e5908af3109",tooltip=" "];
+  Node6 -> Node3 [id="edge8_Node000006_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node1 [id="edge9_Node000003_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

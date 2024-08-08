@@ -1,0 +1,30 @@
+digraph "_pytest.unittest.UnitTestCase.collect"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pytest.unittest.UnitTest\lCase.collect",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.unittest._is\l_skipped",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1unittest.html#a88e240cac798e296a3f5b9022155e6ec",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.unittest.UnitTest\lCase._register_unittest\l_setup_class_fixture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1unittest_1_1_unit_test_case.html#ac0cd8ddad5b28ed6b830d5f13c251bb1",tooltip=" "];
+  Node3 -> Node2 [id="edge3_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge4_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.nodes.Node.nodeid",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1nodes_1_1_node.html#ad1ae8dbd41936128d4d9b2a54012a940",tooltip=" "];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.fixtures.Fixture\lRequest.session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1fixtures_1_1_fixture_request.html#a036bd83bde7d69bd385c8404bb0f8dd7",tooltip=" "];
+  Node3 -> Node6 [id="edge6_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.test.client.Client\lMixin.session",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1client_1_1_client_mixin.html#af7f22841bb68fc37a4cccb6b8d92dc40",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pytest.unittest.UnitTest\lCase._register_unittest\l_setup_method_fixture",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1unittest_1_1_unit_test_case.html#a19c0f36b27eabef9802e4b5d1c49c5b7",tooltip=" "];
+  Node7 -> Node2 [id="edge8_Node000007_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node4 [id="edge9_Node000007_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node5 [id="edge10_Node000007_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node6 [id="edge11_Node000007_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge12_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pytest.python.PyobjMixin.obj",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1python_1_1_pyobj_mixin.html#a065a31711e609a6aa50ed7b39dbcb639",tooltip=" "];
+  Node1 -> Node9 [id="edge13_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="_pytest.python.PyobjMixin.obj",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1python_1_1_pyobj_mixin.html#a8c43ea854dd8fa37328214ee62677508",tooltip=" "];
+}

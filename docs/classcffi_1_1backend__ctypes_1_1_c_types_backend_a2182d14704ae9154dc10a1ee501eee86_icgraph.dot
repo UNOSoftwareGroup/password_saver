@@ -1,0 +1,13 @@
+digraph "cffi.backend_ctypes.CTypesBackend._new_struct_or_union"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="cffi.backend_ctypes.CTypes\lBackend._new_struct_or_union",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="cffi.backend_ctypes.CTypes\lBackend.new_struct_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1backend__ctypes_1_1_c_types_backend.html#ac4fa25d48eb2d6dd1b05a1ef7f6df113",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="cffi.backend_ctypes.CTypes\lBackend.new_union_type",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1backend__ctypes_1_1_c_types_backend.html#ada0d959e4939086372cc3fff121735e5",tooltip=" "];
+}

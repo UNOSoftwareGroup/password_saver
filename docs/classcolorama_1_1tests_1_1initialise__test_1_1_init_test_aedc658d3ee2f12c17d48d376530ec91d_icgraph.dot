@@ -1,0 +1,17 @@
+digraph "colorama.tests.initialise_test.InitTest.assertWrapped"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="colorama.tests.initialise\l_test.InitTest.assertWrapped",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="colorama.tests.initialise\l_test.InitTest.testInitAutoreset\lOnWrapsOnAllPlatforms",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1tests_1_1initialise__test_1_1_init_test.html#a358be7bc7caab4d77cdd2b20f8e959fd",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.colorama.tests.initialise\l_test.InitTest.testInitAutoresetOnWraps\lOnAllPlatforms",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1tests_1_1initialise__test_1_1_init_test.html#abce38a46a7f479f2e9ded0bff3a7344e",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="colorama.tests.initialise\l_test.InitTest.testInitWrapsOn\lWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcolorama_1_1tests_1_1initialise__test_1_1_init_test.html#a3bab1a309e949b23ffc48df0ca9cf27d",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._vendor.colorama.tests.initialise\l_test.InitTest.testInitWrapsOnWindows",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1colorama_1_1tests_1_1initialise__test_1_1_init_test.html#a2fa4c6b574e973c0b7033f4302e9e3ab",tooltip=" "];
+}

@@ -1,0 +1,22 @@
+digraph "_pytest.legacypath.Testdir.makepyfile"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.legacypath.Testdir.makepyfile",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.pytester.Pytester.getmodulecol",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_pytester.html#aa1e7a6c7c394537ca4eca8ac982cab6d",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.pytester.Pytester.getitems",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_pytester.html#a1fa5f11b4d2d7c7e0ab417fae878e7be",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.pytester.Pytester.getitem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_pytester.html#a04fceaffb163cbd66e78c47ddd303f64",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.pytester.Pytester.runitem",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_pytester.html#a6adf3f87cb648ddac372aa10def81ac0",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pytest.pytester.Pytester.inline\l_runsource",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_pytester.html#af29cefaea9dffc5c40da8a44fb0d4c5f",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pytest.pytester.Pytester.makeconftest",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1pytester_1_1_pytester.html#a340428d493ff5ffb37db222b455636be",tooltip=" "];
+  Node1 -> Node1 [id="edge7_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}
