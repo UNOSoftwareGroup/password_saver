@@ -1,0 +1,23 @@
+digraph "pip._vendor.urllib3.connection.HTTPConnection.connect"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._vendor.urllib3.connection.\lHTTPConnection.connect",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.urllib3.connection.\lHTTPConnection._new_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1connection_1_1_h_t_t_p_connection.html#acbf63e6d5b010b3af4c4e87b1c141c54",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.urllib3.connectionpool.\lHTTPConnectionPool._new_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1connectionpool_1_1_h_t_t_p_connection_pool.html#a8e1d1db4b8835a0f4a814b2d17dd3385",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.urllib3.connectionpool.\lHTTPSConnectionPool._new_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1connectionpool_1_1_h_t_t_p_s_connection_pool.html#a18d4226a0916b0c022c02a0991ed85fa",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._vendor.urllib3.contrib.ntlmpool.\lNTLMConnectionPool._new_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1contrib_1_1ntlmpool_1_1_n_t_l_m_connection_pool.html#af188e32347dff664d569f8284cdd18c3",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pip._vendor.urllib3.contrib.socks.\lSOCKSConnection._new_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1contrib_1_1socks_1_1_s_o_c_k_s_connection.html#aa0424ca991441629214eccfada905be6",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.urllib3.connection.\lHTTPConnection._prepare_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1connection_1_1_h_t_t_p_connection.html#ab0e01a16fc860eff3d3d89becbc45cb1",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pip._vendor.urllib3.connectionpool.\lHTTPSConnectionPool._prepare_conn",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1connectionpool_1_1_h_t_t_p_s_connection_pool.html#af4d7125fa35a7a6cf7c42d80083fdc89",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "setuptools._vendor.jaraco.text.WordSet.camel_case"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="setuptools._vendor.jaraco.text.\lWordSet.camel_case",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools._vendor.jaraco.text.\lWordSet.headless_camel_case",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1jaraco_1_1text_1_1_word_set.html#ae9f03ef17e0d38338a8cfaf3bbfd912f",tooltip=" "];
+}

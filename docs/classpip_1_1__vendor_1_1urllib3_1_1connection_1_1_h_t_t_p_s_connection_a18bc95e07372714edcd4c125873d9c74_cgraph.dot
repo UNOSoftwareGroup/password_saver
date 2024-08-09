@@ -1,0 +1,13 @@
+digraph "pip._vendor.urllib3.connection.HTTPSConnection.set_cert"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._vendor.urllib3.connection.\lHTTPSConnection.set_cert",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.core.mail.backends.smtp.\lEmailBackend.ssl_context",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1mail_1_1backends_1_1smtp_1_1_email_backend.html#ada64e4996452822d89e913f646d4a7e9",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="gunicorn.config.NewSSLContext.ssl\l_context",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgunicorn_1_1config_1_1_new_s_s_l_context.html#a9568779c5ab5adb721c77f0587f5e32a",tooltip=" "];
+}

@@ -1,0 +1,13 @@
+digraph "pip._vendor.urllib3.poolmanager.ProxyManager.urlopen"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._vendor.urllib3.poolmanager.\lProxyManager.urlopen",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.urllib3.poolmanager.\lProxyManager._set_proxy_headers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1poolmanager_1_1_proxy_manager.html#af0985cf3dee722b3c78487ad6806dd7e",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.http.request.Http\lRequest.headers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1http_1_1request_1_1_http_request.html#a757d86c06e163aa94180817723ce1b9c",tooltip=" "];
+}

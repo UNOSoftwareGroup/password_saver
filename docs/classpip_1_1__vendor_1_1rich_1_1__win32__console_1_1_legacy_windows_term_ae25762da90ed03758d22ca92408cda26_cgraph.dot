@@ -1,0 +1,15 @@
+digraph "pip._vendor.rich._win32_console.LegacyWindowsTerm.move_cursor_up"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._vendor.rich._win32\l_console.LegacyWindowsTerm.move\l_cursor_up",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.rich._win32\l_console.LegacyWindowsTerm.cursor\l_position",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1__win32__console_1_1_legacy_windows_term.html#a0daa39872dd91b6a2e2f4b20208ffe7b",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.rich._win32\l_console.GetConsoleScreenBufferInfo",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__vendor_1_1rich_1_1__win32__console.html#a2e303c080ae8faca39ad12f1b562f503",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.rich._win32\l_console.SetConsoleCursorPosition",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__vendor_1_1rich_1_1__win32__console.html#a2acd13a2d4deb000664f0a97aaaccdef",tooltip=" "];
+}

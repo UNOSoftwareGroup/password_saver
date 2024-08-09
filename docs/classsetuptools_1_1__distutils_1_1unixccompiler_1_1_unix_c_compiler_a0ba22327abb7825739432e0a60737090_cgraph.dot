@@ -1,0 +1,27 @@
+digraph "setuptools._distutils.unixccompiler.UnixCCompiler.create_static_lib"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="setuptools._distutils.unixccompiler.\lUnixCCompiler.create_static_lib",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools._distutils.ccompiler.\lCCompiler._fix_object_args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1ccompiler_1_1_c_compiler.html#ae049a81a4554f50bdc2ecbd7cf1f0696",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="setuptools._distutils.ccompiler.\lCCompiler._need_link",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1ccompiler_1_1_c_compiler.html#a53f61387a6cf8194a0159faa49e88d63",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.distlib.scripts.\lScriptMaker.dry_run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1distlib_1_1scripts_1_1_script_maker.html#acd0b75b087e518fe8bca3b64ea083c92",tooltip=" "];
+  Node3 -> Node5 [id="edge4_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._vendor.distlib.scripts.\lScriptMaker.dry_run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1distlib_1_1scripts_1_1_script_maker.html#aa6b275f3771cc190673279c4bf52d220",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="setuptools._distutils.ccompiler.\lCCompiler.library_filename",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1ccompiler_1_1_c_compiler.html#ad5c495d86dc0a8953c39e94c87a458c9",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="setuptools._distutils.ccompiler.\lCCompiler.mkpath",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1ccompiler_1_1_c_compiler.html#a84a377626d580d0a9c7af626de535910",tooltip=" "];
+  Node7 -> Node4 [id="edge7_Node000007_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node5 [id="edge8_Node000007_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node8 [id="edge9_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="setuptools._distutils.cmd.\lCommand.mkpath",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1cmd_1_1_command.html#ac5192d4d0c02e64755ea4a522d48c4ab",tooltip=" "];
+  Node8 -> Node4 [id="edge10_Node000008_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node5 [id="edge11_Node000008_Node000005",color="steelblue1",style="solid",tooltip=" "];
+}

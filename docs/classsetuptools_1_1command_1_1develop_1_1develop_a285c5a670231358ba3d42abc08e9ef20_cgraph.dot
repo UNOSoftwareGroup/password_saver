@@ -1,0 +1,28 @@
+digraph "setuptools.command.develop.develop.uninstall_link"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="setuptools.command.develop.develop.uninstall_link",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.pkg_resources.\lVersionConflict.dist",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1pkg__resources_1_1_version_conflict.html#a7fa47ad16b5d2c05a357fb42fc4d595d",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.mark.structures.\lMarkDecorator.args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1mark_1_1structures_1_1_mark_decorator.html#ab4999c45eec5ddbd26d29a7b58faca6b",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.typing\l_extensions.ParamSpec.args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1typing__extensions_1_1_param_spec.html#af9c011d670deaf40c04ee9c1ae53259f",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="setuptools._vendor.typing\l_extensions.ParamSpec.args",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__vendor_1_1typing__extensions_1_1_param_spec.html#ad62e4977155f8ecf52e51dd5377d451c",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pkg_resources.VersionConflict.dist",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1_version_conflict.html#adab9bd550162ac64afce604568730ae8",tooltip=" "];
+  Node6 -> Node3 [id="edge6_Node000006_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node4 [id="edge7_Node000006_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node6 -> Node5 [id="edge8_Node000006_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge9_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.distlib.scripts.\lScriptMaker.dry_run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1distlib_1_1scripts_1_1_script_maker.html#acd0b75b087e518fe8bca3b64ea083c92",tooltip=" "];
+  Node1 -> Node8 [id="edge10_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pip._vendor.distlib.scripts.\lScriptMaker.dry_run",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1distlib_1_1scripts_1_1_script_maker.html#aa6b275f3771cc190673279c4bf52d220",tooltip=" "];
+  Node1 -> Node9 [id="edge11_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="setuptools.command.easy\l_install.easy_install.update_pth",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1command_1_1easy__install_1_1easy__install.html#a94d9e559f3438f4aa8938cbc394d7f47",tooltip=" "];
+}

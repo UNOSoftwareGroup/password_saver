@@ -1,0 +1,16 @@
+digraph "pip._vendor.rich.console.Console"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [id="Node000001",label="pip._vendor.rich.console.\lConsole",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [id="edge1_Node000001_Node000002",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" _environ",fontcolor="grey" ];
+  Node2 [id="Node000002",label="Mapping",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [id="edge2_Node000001_Node000003",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" _color_system\n_emoji_variant\n_live",fontcolor="grey" ];
+  Node3 [id="Node000003",label="Optional",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [id="edge3_Node000001_Node000004",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" highlighter",fontcolor="grey" ];
+  Node4 [id="Node000004",label="HighlighterType",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [id="edge4_Node000001_Node000005",dir="back",color="darkorchid3",style="dashed",tooltip=" ",label=" _record_buffer\n_render_hooks",fontcolor="grey" ];
+  Node5 [id="Node000005",label="List",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",tooltip=" "];
+}

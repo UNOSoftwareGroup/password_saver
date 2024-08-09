@@ -1,0 +1,13 @@
+digraph "setuptools.command.easy_install.easy_install.expand_basedirs"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="setuptools.command.easy\l_install.easy_install.expand\l_basedirs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools._distutils.command.install.install.\l_expand_attrs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1__distutils_1_1command_1_1install_1_1install.html#ac54f090aca4545d576f0161bd2216004",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="setuptools.command.easy\l_install.easy_install.\l_expand_attrs",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1command_1_1easy__install_1_1easy__install.html#a11496a9c5a68f3861623c673566c8bd2",tooltip=" "];
+}
