@@ -1,0 +1,11 @@
+digraph "pytest_django.fixtures.validate_django_db"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pytest_django.fixtures.validate\l_django_db",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pytest_django.fixtures.\l_django_db_helper",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepytest__django_1_1fixtures.html#a120bb3674f430f46ef0f5ec38b46594f",tooltip=" "];
+}

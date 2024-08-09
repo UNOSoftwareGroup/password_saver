@@ -1,0 +1,11 @@
+digraph "setuptools.monkey.patch_for_msvc_specialized_compiler"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="setuptools.monkey.patch\l_for_msvc_specialized\l_compiler",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools.monkey.patch_all",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1monkey.html#af3ddd650b2d211ab486940c8ab78fd86",tooltip=" "];
+}

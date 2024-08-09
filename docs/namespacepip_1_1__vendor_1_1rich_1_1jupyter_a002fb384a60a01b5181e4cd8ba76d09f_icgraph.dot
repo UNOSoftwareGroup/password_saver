@@ -1,0 +1,13 @@
+digraph "pip._vendor.rich.jupyter._render_segments"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._vendor.rich.jupyter.\l_render_segments",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.rich.jupyter.\lJupyterMixin._repr_mimebundle_",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1jupyter_1_1_jupyter_mixin.html#a7629a5d66b2d2abd2761d87e5594935d",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.rich.jupyter.display",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__vendor_1_1rich_1_1jupyter.html#a55a52c2550580a7802a0fcb2ee72a953",tooltip=" "];
+}

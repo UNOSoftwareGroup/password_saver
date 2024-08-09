@@ -1,0 +1,12 @@
+digraph "pycparser.ast_transforms.fix_switch_cases"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pycparser.ast_transforms.fix\l_switch_cases",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pycparser.ast_transforms.\l_extract_nested_case",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepycparser_1_1ast__transforms.html#a3ef4f4527a2f1b7612cb76df2b8df5a5",tooltip=" "];
+  Node2 -> Node2 [id="edge2_Node000002_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

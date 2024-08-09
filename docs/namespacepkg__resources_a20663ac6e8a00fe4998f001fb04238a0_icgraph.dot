@@ -1,0 +1,13 @@
+digraph "pkg_resources.safe_extra"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pkg_resources.safe\l_extra",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.metadata.pkg\l_resources.Distribution.is\l_extra_provided",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1metadata_1_1pkg__resources_1_1_distribution.html#ab0cdc90d846eed9aa84b5a05be4a3158",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.metadata.pkg\l_resources.Distribution.iter\l_dependencies",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__internal_1_1metadata_1_1pkg__resources_1_1_distribution.html#a45334b4f287e5e16bb9989f6ab9da304",tooltip=" "];
+}

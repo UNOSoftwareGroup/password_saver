@@ -1,0 +1,13 @@
+digraph "pip._vendor.typing_extensions._allow_reckless_class_checks"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._vendor.typing\l_extensions._allow_reckless\l_class_checks",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.typing\l_extensions._ProtocolMeta.\l__instancecheck__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1typing__extensions_1_1___protocol_meta.html#ab0a08fd9cbdf430db89df2d55102e155",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.typing\l_extensions._ProtocolMeta.\l__subclasscheck__",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1typing__extensions_1_1___protocol_meta.html#a233b25cca342e28ce477bedb6b0788c2",tooltip=" "];
+}

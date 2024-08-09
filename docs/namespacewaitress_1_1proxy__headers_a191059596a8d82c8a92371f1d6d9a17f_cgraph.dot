@@ -1,0 +1,15 @@
+digraph "waitress.proxy_headers.proxy_headers_middleware"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="waitress.proxy_headers.proxy\l_headers_middleware",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="waitress.proxy_headers.clear\l_untrusted_headers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacewaitress_1_1proxy__headers.html#ab111e8fee87a5e145c1aa50803c7933f",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="waitress.proxy_headers.parse\l_proxy_headers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacewaitress_1_1proxy__headers.html#a74830af2dd7ddbbc8d54cbe51111579c",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="waitress.proxy_headers.strip\l_brackets",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacewaitress_1_1proxy__headers.html#a3a34e9f825680a39e0a0e75cbaee6315",tooltip=" "];
+}

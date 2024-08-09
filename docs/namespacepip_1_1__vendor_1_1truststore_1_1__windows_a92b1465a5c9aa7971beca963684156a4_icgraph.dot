@@ -1,0 +1,11 @@
+digraph "pip._vendor.truststore._windows._verify_using_custom_ca_certs"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._vendor.truststore.\l_windows._verify_using\l_custom_ca_certs",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.truststore.\l_windows._verify_peercerts_impl",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__vendor_1_1truststore_1_1__windows.html#a57932c2c60c2726dc2b1478d52a63b0d",tooltip=" "];
+}

@@ -1,0 +1,30 @@
+digraph "sqlparse.engine.grouping._group"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="sqlparse.engine.grouping.\l_group",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sqlparse.engine.grouping.group\l_arrays",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#adeeb330e8fc21e5afd5ad29f1992898a",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sqlparse.engine.grouping.group_as",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#a156e2eaadb82ee19fa9c1767883d4c29",tooltip=" "];
+  Node1 -> Node4 [id="edge4_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="sqlparse.engine.grouping.group\l_assignment",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#a1ee04ef3d2de3cbfe5207d2d3026cbc5",tooltip=" "];
+  Node1 -> Node5 [id="edge5_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="sqlparse.engine.grouping.group\l_comparison",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#ad4871f1e9d401a64326a0a8bae23e8d5",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="sqlparse.engine.grouping.group\l_identifier_list",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#ad6307ba6e73f3682559ca192100a73c2",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="sqlparse.engine.grouping.group\l_operator",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#a7007252c6f8e9c6def0287d1bdbff281",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="sqlparse.engine.grouping.group\l_period",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#af3d420a3b70b2fbc553be7538ea1408d",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="sqlparse.engine.grouping.group\l_typecasts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#ae6cd17d26f71e119d71555d5a2cc12f0",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="sqlparse.engine.grouping.group\l_typed_literal",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#a4efe5de6bcb407a8ca3a2b4837a2f1db",tooltip=" "];
+  Node1 -> Node11 [id="edge11_Node000001_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="sqlparse.engine.grouping.group\l_tzcasts",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesqlparse_1_1engine_1_1grouping.html#aac37037e8dd84840093f748346a4f132",tooltip=" "];
+}

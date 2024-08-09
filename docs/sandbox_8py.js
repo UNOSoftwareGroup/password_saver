@@ -1,0 +1,26 @@
+var sandbox_8py =
+[
+    [ "setuptools.sandbox.UnpickleableException", "classsetuptools_1_1sandbox_1_1_unpickleable_exception.html", null ],
+    [ "setuptools.sandbox.ExceptionSaver", "classsetuptools_1_1sandbox_1_1_exception_saver.html", "classsetuptools_1_1sandbox_1_1_exception_saver" ],
+    [ "setuptools.sandbox.AbstractSandbox", "classsetuptools_1_1sandbox_1_1_abstract_sandbox.html", "classsetuptools_1_1sandbox_1_1_abstract_sandbox" ],
+    [ "setuptools.sandbox.DirectorySandbox", "classsetuptools_1_1sandbox_1_1_directory_sandbox.html", "classsetuptools_1_1sandbox_1_1_directory_sandbox" ],
+    [ "setuptools.sandbox.SandboxViolation", "classsetuptools_1_1sandbox_1_1_sandbox_violation.html", "classsetuptools_1_1sandbox_1_1_sandbox_violation" ],
+    [ "_clear_modules", "sandbox_8py.html#a643f2aae05bdb3af1a073416aa4436e4", null ],
+    [ "_execfile", "sandbox_8py.html#a6d08b124d7fc3752504cea663fb8c233", null ],
+    [ "_needs_hiding", "sandbox_8py.html#a3e3f4d25efb1d719550e5d80d1f5e16b", null ],
+    [ "hide_setuptools", "sandbox_8py.html#a579ab6c2031e94770efe338681e83bd7", null ],
+    [ "override_temp", "sandbox_8py.html#a6f51ebddfe81ff65264f49b215961f47", null ],
+    [ "pushd", "sandbox_8py.html#a08a2a439e9ca37133fe9382e30b1ea40", null ],
+    [ "run_setup", "sandbox_8py.html#a964522b9141f1d217f4c117aae1a409f", null ],
+    [ "save_argv", "sandbox_8py.html#a90b846a7925c83d8f9ce1749286849ea", null ],
+    [ "save_modules", "sandbox_8py.html#a9df46ce1bd17dbce065c7e11dc46d010", null ],
+    [ "save_path", "sandbox_8py.html#ad158dc58681bf5b4f0d4ecf3eb55370e", null ],
+    [ "save_pkg_resources_state", "sandbox_8py.html#a2c716f0ba46e678dd85be72db41c4e14", null ],
+    [ "setup_context", "sandbox_8py.html#a8e87463f0039530f6b3b039c58ec09da", null ],
+    [ "_EXCEPTIONS", "sandbox_8py.html#aa68adb36abe8accb61bfff7f33e49462", null ],
+    [ "_file", "sandbox_8py.html#a606d2df05a9166bff220807da3b98823", null ],
+    [ "_MODULES_TO_HIDE", "sandbox_8py.html#ac97e22be742d4ea8e38a68abd51c0410", null ],
+    [ "_open", "sandbox_8py.html#a616fa17a666518a02267233ecdc9df33", null ],
+    [ "_os", "sandbox_8py.html#a99f75779e14f881f51f4c38d4a586167", null ],
+    [ "WRITE_FLAGS", "sandbox_8py.html#ae2d3c0e479bb79bd56a7f884d5a5826b", null ]
+];

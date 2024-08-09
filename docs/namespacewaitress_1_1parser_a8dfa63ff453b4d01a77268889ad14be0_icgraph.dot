@@ -1,0 +1,11 @@
+digraph "waitress.parser.unquote_bytes_to_wsgi"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="waitress.parser.unquote\l_bytes_to_wsgi",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="waitress.parser.split_uri",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacewaitress_1_1parser.html#a40489c0ff1aebeaf129fe0a02b6fb623",tooltip=" "];
+}

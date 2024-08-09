@@ -1,0 +1,13 @@
+digraph "setuptools._vendor.packaging.tags.mac_platforms"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="setuptools._vendor.packaging.tags.mac\l_platforms",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools._vendor.packaging.tags.\l_mac_arch",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1__vendor_1_1packaging_1_1tags.html#a78cfef8a296547f9d52577db961b6365",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="setuptools._vendor.packaging.tags.\l_mac_binary_formats",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1__vendor_1_1packaging_1_1tags.html#a2b78477b085f0fb503c2623e3f4414ce",tooltip=" "];
+}
