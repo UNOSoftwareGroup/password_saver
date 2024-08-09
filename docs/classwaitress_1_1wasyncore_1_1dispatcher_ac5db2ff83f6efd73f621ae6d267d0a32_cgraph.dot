@@ -1,0 +1,29 @@
+digraph "waitress.wasyncore.dispatcher.handle_write_event"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="waitress.wasyncore.dispatcher.handle\l_write_event",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.resolvelib.structs.\lDirectedGraph.connected",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1resolvelib_1_1structs_1_1_directed_graph.html#a878604abbdcabb60af93a03f5e7bf204",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="waitress.wasyncore.dispatcher.handle\l_connect_event",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1wasyncore_1_1dispatcher.html#ab1d3a9ab0ed13991e40aadcfc20dd10a",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="waitress.wasyncore.\l_strerror",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacewaitress_1_1wasyncore.html#a53c842adcc86f05b9d15f116da320bf4",tooltip=" "];
+  Node3 -> Node2 [id="edge4_Node000003_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node5 [id="edge5_Node000003_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="waitress.server.BaseWSGIServer.handle\l_connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1server_1_1_base_w_s_g_i_server.html#af55dcd7f5c1c9ecead7a4b32a06fc41f",tooltip=" "];
+  Node3 -> Node6 [id="edge6_Node000003_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="waitress.trigger._triggerbase.handle\l_connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1trigger_1_1__triggerbase.html#ab6fc8f8d1cd97f5fe4de8906bc9712a5",tooltip=" "];
+  Node3 -> Node7 [id="edge7_Node000003_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="waitress.wasyncore.dispatcher.handle\l_connect",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1wasyncore_1_1dispatcher.html#ad84d783b23119d88a2675115b4ec9120",tooltip=" "];
+  Node7 -> Node8 [id="edge8_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="waitress.wasyncore.dispatcher.log_info",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1wasyncore_1_1dispatcher.html#a09e7e2acb9ebae7ffe0c5f6cf05a141a",tooltip=" "];
+  Node1 -> Node9 [id="edge9_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="waitress.channel.HTTPChannel.handle\l_write",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1channel_1_1_h_t_t_p_channel.html#abff55c2b0e05538fb65642e5acb74229",tooltip=" "];
+  Node1 -> Node10 [id="edge10_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="waitress.wasyncore.dispatcher.handle\l_write",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1wasyncore_1_1dispatcher.html#a5bc1201bda76d146c823e23ec843f674",tooltip=" "];
+  Node10 -> Node8 [id="edge11_Node000010_Node000008",color="steelblue1",style="solid",tooltip=" "];
+}

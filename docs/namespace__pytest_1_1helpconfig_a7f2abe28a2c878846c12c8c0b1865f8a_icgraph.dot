@@ -1,0 +1,15 @@
+digraph "_pytest.helpconfig.getpluginversioninfo"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.helpconfig.getpluginversioninfo",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.helpconfig.pytest\l_report_header",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1helpconfig.html#a5ae41920bc9e947daa275b27250f4bc7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.helpconfig.showversion",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1helpconfig.html#a24b2462d85fe1d44addbdbe79a7a558d",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.helpconfig.pytest\l_cmdline_main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1helpconfig.html#a4042c69518a71b29b383f957bfa15524",tooltip=" "];
+}

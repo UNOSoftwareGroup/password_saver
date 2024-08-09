@@ -1,0 +1,47 @@
+digraph "pip._vendor.platformdirs.android._android_folder"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._vendor.platformdirs.android.\l_android_folder",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._vendor.platformdirs.android.\lAndroid.user_cache_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#aa197059edd179a137b69ff1f31103cb8",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.platformdirs.android.\lAndroid.site_cache_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#aecc1d7bd3a156e1213dac6220dcba67a",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._vendor.platformdirs.android.\lAndroid.user_log_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#aced238873ace0ab3c82dd0863e6d3fac",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._vendor.platformdirs.android.\lAndroid.user_runtime_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#a59faaad23f4da029bf104ec474a9ee2a",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pip._vendor.platformdirs.android.\lAndroid.user_config_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#ab0f2bcee7ff9737bf86a5eca86d4bfea",tooltip=" "];
+  Node6 -> Node7 [id="edge6_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._vendor.platformdirs.android.\lAndroid.site_config_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#a21d8a05ddbb88e1f1d7c03c4fa2895ce",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pip._vendor.platformdirs.android.\lAndroid.user_data_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#aefb666a680f4de92f255174f49067d9f",tooltip=" "];
+  Node8 -> Node9 [id="edge8_Node000008_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="pip._vendor.platformdirs.android.\lAndroid.site_data_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#aac646707d2f6b21ef1e0dc8b7b216a98",tooltip=" "];
+  Node9 -> Node10 [id="edge9_Node000009_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="pip._vendor.platformdirs.macos.\lMacOS.site_config_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1macos_1_1_mac_o_s.html#ab65843f8e61e3f294257d0de33c2cfdf",tooltip=" "];
+  Node9 -> Node11 [id="edge10_Node000009_Node000011",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="pip._vendor.platformdirs.windows.\lWindows.site_config_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1windows_1_1_windows.html#aa27f82cdcccce95f8654d31706aa0b54",tooltip=" "];
+  Node8 -> Node12 [id="edge11_Node000008_Node000012",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="pip._vendor.platformdirs.macos.\lMacOS.user_config_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1macos_1_1_mac_o_s.html#a9852b5505a5821d8e1b0275a7ad5b01d",tooltip=" "];
+  Node12 -> Node7 [id="edge12_Node000012_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node13 [id="edge13_Node000008_Node000013",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="pip._vendor.platformdirs.windows.\lWindows.user_config_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1windows_1_1_windows.html#a8c700ba7900d517ae718545b37b4510c",tooltip=" "];
+  Node13 -> Node7 [id="edge14_Node000013_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node14 [id="edge15_Node000008_Node000014",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="pip._vendor.platformdirs.windows.\lWindows.user_log_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1windows_1_1_windows.html#a8d11161edcc65e1024c057ced2560c61",tooltip=" "];
+  Node8 -> Node15 [id="edge16_Node000008_Node000015",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="pip._vendor.platformdirs.android.\lAndroid.user_state_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1android_1_1_android.html#aa146a5931d6856f0fe439f92d8fce315",tooltip=" "];
+  Node15 -> Node16 [id="edge17_Node000015_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node16 [id="Node000016",label="pip._vendor.platformdirs.unix.\lUnix.user_log_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1unix_1_1_unix.html#a7bc2c49c88ed2006771ae6c651cdd4bd",tooltip=" "];
+  Node8 -> Node17 [id="edge18_Node000008_Node000017",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node17 [id="Node000017",label="pip._vendor.platformdirs.macos.\lMacOS.user_state_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1macos_1_1_mac_o_s.html#a94e44353c3b8e4cad140679dbce79d11",tooltip=" "];
+  Node17 -> Node16 [id="edge19_Node000017_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 -> Node18 [id="edge20_Node000008_Node000018",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node18 [id="Node000018",label="pip._vendor.platformdirs.windows.\lWindows.user_state_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1platformdirs_1_1windows_1_1_windows.html#a01a2a26e135d8e16ad4f060fd84e3ed7",tooltip=" "];
+  Node18 -> Node16 [id="edge21_Node000018_Node000016",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

@@ -1,0 +1,11 @@
+digraph "pip._internal.commands.debug.get_vendor_version_from_module"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._internal.commands.debug.get\l_vendor_version_from_module",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.commands.debug.get\l_module_from_module_name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1commands_1_1debug.html#a24a91019108bae8f4358a338af2c8f5c",tooltip=" "];
+}

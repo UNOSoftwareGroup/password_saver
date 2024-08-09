@@ -1,0 +1,13 @@
+digraph "django.core.checks.security.sessions._session_app"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.core.checks.security.sessions.\l_session_app",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.core.checks.security.sessions.check\l_session_cookie_httponly",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1core_1_1checks_1_1security_1_1sessions.html#af6bd067f795a8e8172e1002d5341dbec",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.core.checks.security.sessions.check\l_session_cookie_secure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1core_1_1checks_1_1security_1_1sessions.html#aac22ec709871076170420ca1d7349470",tooltip=" "];
+}

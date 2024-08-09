@@ -1,0 +1,15 @@
+digraph "pip._internal.cli.cmdoptions.raise_option_error"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._internal.cli.cmdoptions.raise\l_option_error",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.cli.cmdoptions.\l_handle_no_cache_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1cli_1_1cmdoptions.html#abaee51ae284649211c62a2f7aecbf9e0",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.cli.cmdoptions.\l_handle_no_use_pep517",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1cli_1_1cmdoptions.html#a2a1092a0de7ca5904710da2f45d97c27",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._internal.cli.cmdoptions.\l_handle_python_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1cli_1_1cmdoptions.html#aadfea899d02b0ab61d1d91fe05e37247",tooltip=" "];
+}

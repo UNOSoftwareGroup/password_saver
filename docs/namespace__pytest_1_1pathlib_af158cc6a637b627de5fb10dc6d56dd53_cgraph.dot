@@ -1,0 +1,14 @@
+digraph "_pytest.pathlib._import_module_using_spec"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="_pytest.pathlib._import\l_module_using_spec",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.pathlib.insert\l_missing_modules",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#acda9be6ad7371c8275fd7e08928726c5",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.pathlib.spec\l_matches_module_path",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#a500b7dde594bf79fd876fcb912114d9f",tooltip=" "];
+}

@@ -1,0 +1,19 @@
+digraph "cffi.cffi_opcode.format_four_bytes"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="cffi.cffi_opcode.format\l_four_bytes",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="cffi.recompiler.FieldExpr.as\l_field_python_expr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1recompiler_1_1_field_expr.html#a1524451d4a592015c565b7cfc57a9778",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="cffi.cffi_opcode.CffiOp.as\l_python_bytes",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1cffi__opcode_1_1_cffi_op.html#a2f2db6064a73239070dedde3d7ba3e12",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="cffi.recompiler.EnumExpr.as\l_python_expr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1recompiler_1_1_enum_expr.html#a7bfdb5d60ed57747bbab2d67d6a1a0e9",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="cffi.recompiler.StructUnion\lExpr.as_python_expr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1recompiler_1_1_struct_union_expr.html#a538989e2d46bfb637d41187a534bbd51",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="cffi.recompiler.Typename\lExpr.as_python_expr",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classcffi_1_1recompiler_1_1_typename_expr.html#a8af2e270c5574adcf91d51a2ba420119",tooltip=" "];
+}

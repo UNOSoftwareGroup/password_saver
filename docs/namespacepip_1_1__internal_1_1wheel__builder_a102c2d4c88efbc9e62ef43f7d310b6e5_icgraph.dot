@@ -1,0 +1,13 @@
+digraph "pip._internal.wheel_builder._should_build"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._internal.wheel\l_builder._should_build",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.wheel\l_builder.should_build\l_for_install_command",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1wheel__builder.html#a8cfccc256f676f666f143723dcbc28a5",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.wheel\l_builder.should_build\l_for_wheel_command",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1wheel__builder.html#a5c9a3c0c4284f4c9239be20a98cd90a3",tooltip=" "];
+}

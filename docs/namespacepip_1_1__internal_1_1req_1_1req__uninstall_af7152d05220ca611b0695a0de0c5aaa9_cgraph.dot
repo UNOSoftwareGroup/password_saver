@@ -1,0 +1,11 @@
+digraph "pip._internal.req.req_uninstall.compress_for_output_listing"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._internal.req.req\l_uninstall.compress_for\l_output_listing",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.req.req\l_uninstall.compact",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1req_1_1req__uninstall.html#a634681c37a53ec41c50fb77a1b300413",tooltip=" "];
+}

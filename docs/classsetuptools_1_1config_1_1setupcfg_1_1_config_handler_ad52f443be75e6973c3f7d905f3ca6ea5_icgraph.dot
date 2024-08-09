@@ -1,0 +1,11 @@
+digraph "setuptools.config.setupcfg.ConfigHandler._parse_attr"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="setuptools.config.setupcfg.\lConfigHandler._parse_attr",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools.config.setupcfg.\lConfigMetadataHandler._parse\l_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1setupcfg_1_1_config_metadata_handler.html#acd9f934b82c84ee8b6bdf39798fdbcd0",tooltip=" "];
+}

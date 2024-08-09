@@ -1,0 +1,11 @@
+digraph "pip._internal.operations.freeze._get_editable_info"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._internal.operations.freeze.\l_get_editable_info",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.operations.freeze.\l_format_as_name_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1operations_1_1freeze.html#a6459dcd45b9829542dc6546fd7af1a03",tooltip=" "];
+}

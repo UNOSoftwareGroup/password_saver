@@ -1,0 +1,15 @@
+digraph "django.test.testcases._deferredSkip"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.test.testcases.\l_deferredSkip",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.test.testcases.skip\lIfDBFeature",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1test_1_1testcases.html#a4d9a29d7d53850871111763d8aaee316",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.test.testcases.skip\lUnlessAnyDBFeature",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1test_1_1testcases.html#a97f51e53e9302cd2a1d926eec25fd107",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.test.testcases.skip\lUnlessDBFeature",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1test_1_1testcases.html#a1ba697d5d079b3a34b4434f37edf8dc3",tooltip=" "];
+}

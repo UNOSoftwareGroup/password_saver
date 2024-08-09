@@ -1,0 +1,17 @@
+digraph "_pytest.pathlib.create_cleanup_lock"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.pathlib.create\l_cleanup_lock",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.pathlib.make\l_numbered_dir_with_cleanup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#a31cda2f173f0946adac7122c00608b88",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.pathlib.maybe\l_delete_a_numbered_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#a13e58fca02f174fa9bd72475840e51cc",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.pathlib.try\l_cleanup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#a94a716332cee4b0ffe6806ccfd56c390",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.pathlib.cleanup\l_numbered_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#a9d1e52490b7f908dbc8b6041d0bba697",tooltip=" "];
+}

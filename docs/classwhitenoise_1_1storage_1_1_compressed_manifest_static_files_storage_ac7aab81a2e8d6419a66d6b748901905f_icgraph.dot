@@ -1,0 +1,14 @@
+digraph "whitenoise.storage.CompressedManifestStaticFilesStorage.stop_tracking_new_files"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="whitenoise.storage.Compressed\lManifestStaticFilesStorage.stop\l_tracking_new_files",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="whitenoise.storage.Compressed\lManifestStaticFilesStorage.post\l_process_with_compression",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwhitenoise_1_1storage_1_1_compressed_manifest_static_files_storage.html#aaa15c1d80b5d8ff4dbef1ac31b186833",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="whitenoise.storage.Compressed\lManifestStaticFilesStorage.post\l_process",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwhitenoise_1_1storage_1_1_compressed_manifest_static_files_storage.html#a047a4468f38b0d66e6e55dfae8ace85f",tooltip=" "];
+  Node3 -> Node3 [id="edge3_Node000003_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

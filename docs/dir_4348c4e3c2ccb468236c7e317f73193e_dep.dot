@@ -1,0 +1,12 @@
+digraph "C:/Users/LukeMabie/documents/Development/Password_Saver_Using_Django-master/venv/Lib/site-packages/django/conf/locale/en_AU"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_6ae4708f427b9ff73e5313b131df1071 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="locale", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_6ae4708f427b9ff73e5313b131df1071.html",tooltip=""]
+  dir_4348c4e3c2ccb468236c7e317f73193e [label="en_AU", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_4348c4e3c2ccb468236c7e317f73193e.html",tooltip=""];
+  }
+}

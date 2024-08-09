@@ -1,0 +1,17 @@
+digraph "C:/Users/LukeMabie/documents/Development/Password_Saver_Using_Django-master/venv/Lib/site-packages/django/template"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_fd6995093b1bd7e4f343e90421fa64e3 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="django", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_fd6995093b1bd7e4f343e90421fa64e3.html",tooltip=""]
+  subgraph clusterdir_e0e0aab43a8ec1a19efaf837023f7297 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_e0e0aab43a8ec1a19efaf837023f7297.html",tooltip=""]
+    dir_e0e0aab43a8ec1a19efaf837023f7297 [shape=plaintext, label="template"];
+  dir_985ad4a2618c51137043936b9535e91f [label="backends", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_985ad4a2618c51137043936b9535e91f.html",tooltip=""];
+  dir_411340541d57702af30989e69d5c21e6 [label="loaders", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_411340541d57702af30989e69d5c21e6.html",tooltip=""];
+  }
+  }
+}

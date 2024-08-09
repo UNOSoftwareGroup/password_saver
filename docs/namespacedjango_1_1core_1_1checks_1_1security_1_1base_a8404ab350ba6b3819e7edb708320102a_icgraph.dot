@@ -1,0 +1,13 @@
+digraph "django.core.checks.security.base._xframe_middleware"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.core.checks.security.base.\l_xframe_middleware",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.core.checks.security.base.check\l_xframe_deny",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1core_1_1checks_1_1security_1_1base.html#a4682a8b09d05c3806bbbe1651e3a6393",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.core.checks.security.base.check\l_xframe_options_middleware",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1core_1_1checks_1_1security_1_1base.html#acc57e8f87f3aedac558c2341648844d7",tooltip=" "];
+}

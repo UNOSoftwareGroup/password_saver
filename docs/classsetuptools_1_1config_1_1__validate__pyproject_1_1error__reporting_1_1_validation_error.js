@@ -1,0 +1,4 @@
+var classsetuptools_1_1config_1_1__validate__pyproject_1_1error__reporting_1_1_validation_error =
+[
+    [ "_from_jsonschema", "classsetuptools_1_1config_1_1__validate__pyproject_1_1error__reporting_1_1_validation_error.html#aeb94c4872b4239fab065683b58b0d132", null ]
+];

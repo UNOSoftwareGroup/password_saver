@@ -1,0 +1,20 @@
+digraph "pip._internal.utils.unpacking.split_leading_dir"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="pip._internal.utils.unpacking.split\l_leading_dir",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.utils.unpacking.has\l_leading_dir",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1utils_1_1unpacking.html#a9d7126d623b79665a16202c11c501945",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.utils.unpacking.untar_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1utils_1_1unpacking.html#a8e9d9b354f7f8ab47c9e4cd6d08934ee",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._internal.utils.unpacking.unpack_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1utils_1_1unpacking.html#ab71fa52a3377621b0f58533662fe0d96",tooltip=" "];
+  Node2 -> Node5 [id="edge4_Node000002_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._internal.utils.unpacking.unzip_file",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1utils_1_1unpacking.html#a4c6549881b5007dff4fc61b93fbf3d2e",tooltip=" "];
+  Node5 -> Node4 [id="edge5_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node3 [id="edge6_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node5 [id="edge7_Node000001_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

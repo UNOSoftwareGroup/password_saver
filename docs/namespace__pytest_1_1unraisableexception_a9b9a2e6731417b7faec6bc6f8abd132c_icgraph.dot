@@ -1,0 +1,15 @@
+digraph "_pytest.unraisableexception.unraisable_exception_runtest_hook"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.unraisableexception.unraisable\l_exception_runtest_hook",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.unraisableexception.pytest\l_runtest_call",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1unraisableexception.html#aa7659248ecaa9a3007f9fa5a8cb89db7",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.unraisableexception.pytest\l_runtest_setup",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1unraisableexception.html#abe156c3d377c6491d01ee42dec92f078",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.unraisableexception.pytest\l_runtest_teardown",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1unraisableexception.html#ae8e80107452a3102ec37a099e1521170",tooltip=" "];
+}

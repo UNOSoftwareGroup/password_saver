@@ -1,0 +1,12 @@
+digraph "C:/Users/LukeMabie/documents/Development/Password_Saver_Using_Django-master/venv/Lib/site-packages/django/contrib/postgres/aggregates"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_c11fdc29a05ad4f3f28752657d93fd44 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="postgres", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_c11fdc29a05ad4f3f28752657d93fd44.html",tooltip=""]
+  dir_41ed46ad6fb2a00f35c319901553757b [label="aggregates", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_41ed46ad6fb2a00f35c319901553757b.html",tooltip=""];
+  }
+}

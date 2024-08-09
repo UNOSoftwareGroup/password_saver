@@ -1,0 +1,19 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="waitress.utilities.Error",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1utilities_1_1_error.html",tooltip=" "];
+  Node0 -> Node1 [id="edge4376_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="waitress.utilities.BadRequest",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1utilities_1_1_bad_request.html",tooltip=" "];
+  Node1 -> Node2 [id="edge4377_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="waitress.utilities.Request\lEntityTooLarge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1utilities_1_1_request_entity_too_large.html",tooltip=" "];
+  Node1 -> Node3 [id="edge4378_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="waitress.utilities.Request\lHeaderFieldsTooLarge",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1utilities_1_1_request_header_fields_too_large.html",tooltip=" "];
+  Node0 -> Node4 [id="edge4379_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="waitress.utilities.Internal\lServerError",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1utilities_1_1_internal_server_error.html",tooltip=" "];
+  Node0 -> Node5 [id="edge4380_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="waitress.utilities.Server\lNotImplemented",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classwaitress_1_1utilities_1_1_server_not_implemented.html",tooltip=" "];
+}

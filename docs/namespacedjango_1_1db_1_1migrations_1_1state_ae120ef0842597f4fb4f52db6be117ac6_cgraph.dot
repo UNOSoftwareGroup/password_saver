@@ -1,0 +1,11 @@
+digraph "django.db.migrations.state.get_related_models_recursive"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.migrations.state.get\l_related_models_recursive",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.migrations.state.\l_get_related_models",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1db_1_1migrations_1_1state.html#ad4ec87c24ecf42dc1d92fe5422d79cbd",tooltip=" "];
+}

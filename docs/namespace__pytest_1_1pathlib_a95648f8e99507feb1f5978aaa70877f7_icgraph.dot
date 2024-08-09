@@ -1,0 +1,11 @@
+digraph "_pytest.pathlib.compute_module_name"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.pathlib.compute\l_module_name",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.pathlib.resolve\l_pkg_root_and_module_name",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1pathlib.html#ae0d4d9c6518ac50dc96cac0b37d9ef7a",tooltip=" "];
+}

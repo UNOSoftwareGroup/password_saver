@@ -1,0 +1,30 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="django.core.handlers.base.\lBaseHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1handlers_1_1base_1_1_base_handler.html",tooltip=" "];
+  Node0 -> Node1 [id="edge1316_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="django.core.handlers.asgi.\lASGIHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1handlers_1_1asgi_1_1_a_s_g_i_handler.html",tooltip=" "];
+  Node1 -> Node2 [id="edge1317_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.staticfiles.handlers.\lASGIStaticFilesHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1staticfiles_1_1handlers_1_1_a_s_g_i_static_files_handler.html",tooltip=" "];
+  Node0 -> Node5 [id="edge1318_Node000000_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.core.handlers.wsgi.\lWSGIHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1core_1_1handlers_1_1wsgi_1_1_w_s_g_i_handler.html",tooltip=" "];
+  Node5 -> Node4 [id="edge1319_Node000005_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.contrib.staticfiles.handlers.\lStaticFilesHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1staticfiles_1_1handlers_1_1_static_files_handler.html",tooltip=" "];
+  Node5 -> Node6 [id="edge1320_Node000005_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="django.test.testcases.FSFiles\lHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_f_s_files_handler.html",tooltip=" "];
+  Node6 -> Node7 [id="edge1321_Node000006_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="django.test.testcases.\l_MediaFilesHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1___media_files_handler.html",tooltip=" "];
+  Node6 -> Node8 [id="edge1322_Node000006_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="django.test.testcases.\l_StaticFilesHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1___static_files_handler.html",tooltip=" "];
+  Node0 -> Node9 [id="edge1323_Node000000_Node000009",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="django.test.client.Async\lClientHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1client_1_1_async_client_handler.html",tooltip=" "];
+  Node0 -> Node10 [id="edge1324_Node000000_Node000010",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="django.test.client.Client\lHandler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1client_1_1_client_handler.html",tooltip=" "];
+  Node3 [id="Node000003",label="django.contrib.staticfiles.handlers.\lStaticFilesHandlerMixin",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1staticfiles_1_1handlers_1_1_static_files_handler_mixin.html",tooltip=" "];
+  Node3 -> Node2 [id="edge1325_Node000003_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 -> Node4 [id="edge1326_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+}

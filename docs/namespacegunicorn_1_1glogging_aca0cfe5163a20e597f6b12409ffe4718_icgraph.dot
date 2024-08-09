@@ -1,0 +1,13 @@
+digraph "gunicorn.glogging.loggers"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="gunicorn.glogging.loggers",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="gunicorn.glogging.Logger.close\l_on_exec",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgunicorn_1_1glogging_1_1_logger.html#a264870137fbb33eca0f095c188546f80",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="gunicorn.glogging.Logger.reopen\l_files",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgunicorn_1_1glogging_1_1_logger.html#ab16e69ff913f6f2cc80f284873d9db88",tooltip=" "];
+}

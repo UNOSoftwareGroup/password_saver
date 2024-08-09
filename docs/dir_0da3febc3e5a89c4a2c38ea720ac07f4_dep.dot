@@ -1,0 +1,23 @@
+digraph "C:/Users/LukeMabie/documents/Development/Password_Saver_Using_Django-master/venv/Lib/site-packages/django/core"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_fd6995093b1bd7e4f343e90421fa64e3 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="django", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_fd6995093b1bd7e4f343e90421fa64e3.html",tooltip=""]
+  subgraph clusterdir_0da3febc3e5a89c4a2c38ea720ac07f4 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_0da3febc3e5a89c4a2c38ea720ac07f4.html",tooltip=""]
+    dir_0da3febc3e5a89c4a2c38ea720ac07f4 [shape=plaintext, label="core"];
+  dir_e5bc58c82e7336f8d9d3a1f2806705b2 [label="cache", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_e5bc58c82e7336f8d9d3a1f2806705b2.html",tooltip=""];
+  dir_2952e920a54740806be6c2f14b7074e0 [label="checks", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_2952e920a54740806be6c2f14b7074e0.html",tooltip=""];
+  dir_fdb5b39f42b465d3dc57f199c900a399 [label="files", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_fdb5b39f42b465d3dc57f199c900a399.html",tooltip=""];
+  dir_11e0220c20fbb841388d401015330854 [label="handlers", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_11e0220c20fbb841388d401015330854.html",tooltip=""];
+  dir_64f97a57a81ddd795a9bfc6ed861b9b9 [label="mail", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_64f97a57a81ddd795a9bfc6ed861b9b9.html",tooltip=""];
+  dir_e1665df407657113fff5a37ab0ca7c9d [label="management", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_e1665df407657113fff5a37ab0ca7c9d.html",tooltip=""];
+  dir_4519a1209dc01710d97a7830a491f0d4 [label="serializers", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_4519a1209dc01710d97a7830a491f0d4.html",tooltip=""];
+  dir_fe8a259cc5d8f6f27974b418b760e3fd [label="servers", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_fe8a259cc5d8f6f27974b418b760e3fd.html",tooltip=""];
+  }
+  }
+}

@@ -1,0 +1,11 @@
+digraph "gunicorn.glogging.parse_syslog_address"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="gunicorn.glogging.parse\l_syslog_address",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="gunicorn.glogging.Logger.\l_set_syslog_handler",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classgunicorn_1_1glogging_1_1_logger.html#ab2260d4e5e24a006a948f18458f42945",tooltip=" "];
+}

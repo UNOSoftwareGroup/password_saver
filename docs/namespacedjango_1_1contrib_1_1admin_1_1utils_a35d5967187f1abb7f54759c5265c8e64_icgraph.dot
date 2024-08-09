@@ -1,0 +1,15 @@
+digraph "django.contrib.admin.utils._get_non_gfk_field"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.contrib.admin.utils.\l_get_non_gfk_field",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.admin.utils.help\l_text_for_field",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1contrib_1_1admin_1_1utils.html#a692a60f230096904854df065049dfdbf",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.contrib.admin.utils.label\l_for_field",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1contrib_1_1admin_1_1utils.html#a1686c7ac5f285ffb7cd939c83169e003",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.contrib.admin.utils.lookup\l_field",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1contrib_1_1admin_1_1utils.html#abce92c22b62712b05a8b471b48add2a9",tooltip=" "];
+}

@@ -1,0 +1,37 @@
+digraph "C:/Users/LukeMabie/documents/Development/Password_Saver_Using_Django-master/venv/Lib/site-packages/pip/_vendor"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_13ed6477eb849d263663db54b793f046 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="pip", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_13ed6477eb849d263663db54b793f046.html",tooltip=""]
+  subgraph clusterdir_5eb293a508d632f7a3df64020434be11 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_5eb293a508d632f7a3df64020434be11.html",tooltip=""]
+    dir_5eb293a508d632f7a3df64020434be11 [shape=plaintext, label="_vendor"];
+  dir_2b00ec5ded88169d207ec4377acd7446 [label="cachecontrol", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_2b00ec5ded88169d207ec4377acd7446.html",tooltip=""];
+  dir_bb1275ccc508f3d3f5c6ed9af42a2133 [label="certifi", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_bb1275ccc508f3d3f5c6ed9af42a2133.html",tooltip=""];
+  dir_e908f0ca7acdae37b9c9d692c988edfa [label="chardet", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_e908f0ca7acdae37b9c9d692c988edfa.html",tooltip=""];
+  dir_77ffad4e6ea9d6533ff3bea567b7756f [label="colorama", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_77ffad4e6ea9d6533ff3bea567b7756f.html",tooltip=""];
+  dir_f71a6470acd7e10d77dc2b1388bc5458 [label="distlib", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_f71a6470acd7e10d77dc2b1388bc5458.html",tooltip=""];
+  dir_3878b0ba557df4b334558aaada8f44d5 [label="distro", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_3878b0ba557df4b334558aaada8f44d5.html",tooltip=""];
+  dir_3da7bea7e95dcaf337b5e20b54381a45 [label="idna", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_3da7bea7e95dcaf337b5e20b54381a45.html",tooltip=""];
+  dir_533324e63269bbb7002a87bb2a35a8a3 [label="msgpack", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_533324e63269bbb7002a87bb2a35a8a3.html",tooltip=""];
+  dir_34487076063fa42d074e26c476b6bed7 [label="packaging", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_34487076063fa42d074e26c476b6bed7.html",tooltip=""];
+  dir_6d13777dc8da6198cdb0f5c852370015 [label="pkg_resources", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_6d13777dc8da6198cdb0f5c852370015.html",tooltip=""];
+  dir_889898dbfe22d784374d975c5633a6a5 [label="platformdirs", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_889898dbfe22d784374d975c5633a6a5.html",tooltip=""];
+  dir_32dd683f4314d4c48b08d41232c1e397 [label="pygments", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_32dd683f4314d4c48b08d41232c1e397.html",tooltip=""];
+  dir_5450f3ca1350be177c06be803e3040b1 [label="pyparsing", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_5450f3ca1350be177c06be803e3040b1.html",tooltip=""];
+  dir_3b6d96269269ff5f6b76ef5162daa20e [label="pyproject_hooks", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_3b6d96269269ff5f6b76ef5162daa20e.html",tooltip=""];
+  dir_d8c9010a0d19608573cad9e9b68728c3 [label="requests", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_d8c9010a0d19608573cad9e9b68728c3.html",tooltip=""];
+  dir_295624519785d520a41f993415fc22e2 [label="resolvelib", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_295624519785d520a41f993415fc22e2.html",tooltip=""];
+  dir_ae29646e937ce74c471c2710ca25ec51 [label="rich", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_ae29646e937ce74c471c2710ca25ec51.html",tooltip=""];
+  dir_00a24a4865458602c97454e3fd16021c [label="tenacity", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_00a24a4865458602c97454e3fd16021c.html",tooltip=""];
+  dir_dc4dbd80c5fe28cde95e7d724aee8c26 [label="tomli", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_dc4dbd80c5fe28cde95e7d724aee8c26.html",tooltip=""];
+  dir_38811f10ea867485d98ca54a7c6d885a [label="truststore", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_38811f10ea867485d98ca54a7c6d885a.html",tooltip=""];
+  dir_aa34faaa9fda7df4d73ec513a1a183ed [label="urllib3", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_aa34faaa9fda7df4d73ec513a1a183ed.html",tooltip=""];
+  dir_0f12b372ac50b9fab4eaf7fd967dd509 [label="webencodings", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_0f12b372ac50b9fab4eaf7fd967dd509.html",tooltip=""];
+  }
+  }
+}

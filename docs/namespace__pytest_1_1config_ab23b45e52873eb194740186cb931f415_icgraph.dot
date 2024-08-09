@@ -1,0 +1,24 @@
+digraph "_pytest.config.create_terminal_writer"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.config.create\l_terminal_writer",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.debugging.pytest\lPDB._get_pdb_wrapper_class",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1debugging_1_1pytest_p_d_b.html#a8e23d0d3e2933d03e6a13368cf38edad",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.debugging.pytest\lPDB._import_pdb_cls",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1debugging_1_1pytest_p_d_b.html#aaa130b6ebe55e44c9f90372c05580497",tooltip=" "];
+  Node3 -> Node4 [id="edge3_Node000003_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="_pytest.debugging.pytest\lPDB._init_pdb",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1debugging_1_1pytest_p_d_b.html#a544c280532ae22ae8824986227d59d3d",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="_pytest.debugging.pytest\lPDB.set_trace",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1debugging_1_1pytest_p_d_b.html#a0367083c41ff0ccbca93ddebec2c2d93",tooltip=" "];
+  Node1 -> Node4 [id="edge5_Node000001_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node6 [id="edge6_Node000001_Node000006",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="_pytest.fixtures._show\l_fixtures_per_test",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1fixtures.html#a4f672440decf622a27721cedd152d1dd",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="_pytest.fixtures._showfixtures_main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1fixtures.html#a6df50a9afa444ebc941bfee0bea13ebc",tooltip=" "];
+  Node1 -> Node8 [id="edge8_Node000001_Node000008",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="_pytest.mark.pytest\l_cmdline_main",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1mark.html#aa1d321e8e375f06a1d8d675d9c7d197e",tooltip=" "];
+}

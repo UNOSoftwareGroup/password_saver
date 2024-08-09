@@ -1,0 +1,29 @@
+digraph "pip._internal.locations.get_scheme"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._internal.locations.get\l_scheme",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.locations.\l_fix_abiflags",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a291bac702c7a4dbc58a8cfcf91d1fde2",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.locations.\l_log_context",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#af2cd88c8da2188651b6fc1f39db7b6a8",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="pip._internal.locations.\l_looks_like_bpo_44860",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a0df6a9be7b6d344508d58b2c7487c064",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="pip._internal.locations.\l_looks_like_debian_scheme",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a36375688be3152d7f73e41faa1268950",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="pip._internal.locations.\l_looks_like_msys2_mingw_scheme",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#ad0369960822ddb3deae8af4aa51add1b",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="pip._internal.locations.\l_looks_like_red_hat_lib",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a53eb998d069e8a458b1d06a109ed8370",tooltip=" "];
+  Node7 -> Node8 [id="edge7_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="pip._internal.locations.\l_looks_like_red_hat_patched\l_platlib_purelib",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a3cd90f2ff08e8283648cac87ca133aa1",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="pip._internal.locations.\l_looks_like_red_hat_scheme",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a2dbfed03919a70a95fd3b31e1cd31bc9",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="pip._internal.locations.\l_looks_like_slackware_scheme",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a74e59f466cb81b463d16e11157fce734",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="pip._internal.locations.\l_warn_mismatched",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1locations.html#a35a943b44b964ecd58a72ef9ec55d6dd",tooltip=" "];
+}

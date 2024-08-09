@@ -1,0 +1,14 @@
+digraph "whitenoise.responders.SlicedFile.read"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="whitenoise.responders.Sliced\lFile.read",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node1 [id="edge1_Node000001_Node000001",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node2 [id="edge2_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="asgiref.timeout.timeout.remaining",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classasgiref_1_1timeout_1_1timeout.html#a03dd154d80cdeded1703f3c5cdb63a8a",tooltip=" "];
+  Node1 -> Node3 [id="edge3_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._vendor.rich.progress.\lTask.remaining",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1rich_1_1progress_1_1_task.html#af6c2746df872872709e1bd106d990007",tooltip=" "];
+}

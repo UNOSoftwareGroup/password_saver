@@ -1,0 +1,11 @@
+digraph "django.db.backends.sqlite3._functions._sqlite_format_dtdelta"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="django.db.backends.sqlite3.\l_functions._sqlite_format\l_dtdelta",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.db.backends.sqlite3.\l_functions._sqlite_prepare\l_dtdelta_param",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1db_1_1backends_1_1sqlite3_1_1__functions.html#a1e27ae54a52d07511ca4def8ce0dfb69",tooltip=" "];
+}

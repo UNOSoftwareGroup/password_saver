@@ -1,0 +1,11 @@
+digraph "django.contrib.auth.migrations.0011_update_proxy_permissions.update_proxy_model_permissions"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="django.contrib.auth.migrations.0011\l_update_proxy_permissions.update\l_proxy_model_permissions",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.auth.migrations.0011\l_update_proxy_permissions.revert\l_proxy_model_permissions",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacedjango_1_1contrib_1_1auth_1_1migrations_1_10011__update__proxy__permissions.html#aa283807f31fcf02b20c354e308592113",tooltip=" "];
+}

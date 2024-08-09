@@ -1,0 +1,40 @@
+digraph "setuptools.config.pyprojecttoml._ConfigExpander._expand_all_dynamic"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._expand_all_dynamic",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a36e4fdbd57f7f8dc1886cb4961a920f5",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._ensure_previously_set",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a6c79c264dfdc216bd0055003044bb1d9",tooltip=" "];
+  Node2 -> Node4 [id="edge3_Node000002_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._expand_directive",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a539aab267251d10e52ecdc25ca254664",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="setuptools.config.pyprojecttoml.\l_ignore_errors",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1config_1_1pyprojecttoml.html#a32d54ad53b7a4921906c2a2b5252a063",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain_classifiers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a80d2582b1ab0f7939455a834413d4516",tooltip=" "];
+  Node6 -> Node2 [id="edge6_Node000006_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node7 [id="edge7_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain_dependencies",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a9649999c2d233af4133d8d55ce5aed93",tooltip=" "];
+  Node7 -> Node2 [id="edge8_Node000007_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node7 -> Node8 [id="edge9_Node000007_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="setuptools.config.pyprojecttoml.\l_parse_requirements_list",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1config_1_1pyprojecttoml.html#a30e90b98d31ae1818760ea37eb314352",tooltip=" "];
+  Node1 -> Node9 [id="edge10_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain_entry_points",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a13eb762096e02958a4d8f8417d4b943b",tooltip=" "];
+  Node9 -> Node2 [id="edge11_Node000009_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node10 [id="edge12_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain_optional\l_dependencies",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a5684501b560dbc53b602657b1dfeb6f1",tooltip=" "];
+  Node10 -> Node3 [id="edge13_Node000010_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node4 [id="edge14_Node000010_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node10 -> Node8 [id="edge15_Node000010_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node11 [id="edge16_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain_readme",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a5c56f85a1a51f799c53b1a23043ea0c0",tooltip=" "];
+  Node11 -> Node3 [id="edge17_Node000011_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node11 -> Node2 [id="edge18_Node000011_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node1 -> Node12 [id="edge19_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="setuptools.config.pyprojecttoml.\l_ConfigExpander._obtain_version",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsetuptools_1_1config_1_1pyprojecttoml_1_1___config_expander.html#a768e0c3b24c13786b6c08c66116bf76a",tooltip=" "];
+  Node12 -> Node2 [id="edge20_Node000012_Node000002",color="steelblue1",style="solid",tooltip=" "];
+}

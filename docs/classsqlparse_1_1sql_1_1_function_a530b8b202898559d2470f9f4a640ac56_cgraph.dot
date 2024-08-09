@@ -1,0 +1,13 @@
+digraph "sqlparse.sql.Function.get_window"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="sqlparse.sql.Function.get\l_window",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="sqlparse.sql.TokenList.token\l_next_by",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsqlparse_1_1sql_1_1_token_list.html#acb7f06b0c3968bc76d455ab7ab5a5e9c",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="sqlparse.sql.TokenList.\l_token_matching",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classsqlparse_1_1sql_1_1_token_list.html#aacc350e74a48e538d5deeaeba4eb5ebd",tooltip=" "];
+}

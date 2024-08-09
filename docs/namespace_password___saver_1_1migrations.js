@@ -1,0 +1,9 @@
+var namespace_password___saver_1_1migrations =
+[
+    [ "0001_initial", "namespace_password___saver_1_1migrations_1_10001__initial.html", "namespace_password___saver_1_1migrations_1_10001__initial" ],
+    [ "0002_remove_registration_us_delete_login_and_more", "namespace_password___saver_1_1migrations_1_10002__remove__registration__us__delete__login__and__more.html", "namespace_password___saver_1_1migrations_1_10002__remove__registration__us__delete__login__and__more" ],
+    [ "0003_initial", "namespace_password___saver_1_1migrations_1_10003__initial.html", "namespace_password___saver_1_1migrations_1_10003__initial" ],
+    [ "0004_alter_accountinfo_user", "namespace_password___saver_1_1migrations_1_10004__alter__accountinfo__user.html", "namespace_password___saver_1_1migrations_1_10004__alter__accountinfo__user" ],
+    [ "0005_alter_accountinfo_account_name_and_more", "namespace_password___saver_1_1migrations_1_10005__alter__accountinfo__account__name__and__more.html", "namespace_password___saver_1_1migrations_1_10005__alter__accountinfo__account__name__and__more" ],
+    [ "0006_alter_accountinfo_account_name_and_more", "namespace_password___saver_1_1migrations_1_10006__alter__accountinfo__account__name__and__more.html", "namespace_password___saver_1_1migrations_1_10006__alter__accountinfo__account__name__and__more" ]
+];

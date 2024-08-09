@@ -1,0 +1,13 @@
+digraph "_pytest.assertion.rewrite.rewrite_asserts"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_pytest.assertion.rewrite.rewrite\l_asserts",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="_pytest.assertion.rewrite.\l_rewrite_test",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespace__pytest_1_1assertion_1_1rewrite.html#a570d5c8052176b6cfd135aaf2ce426e6",tooltip=" "];
+  Node2 -> Node3 [id="edge2_Node000002_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="_pytest.assertion.rewrite.\lAssertionRewritingHook.exec_module",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class__pytest_1_1assertion_1_1rewrite_1_1_assertion_rewriting_hook.html#ae94dd2b4b7c241174a529d4780f8747d",tooltip=" "];
+}

@@ -1,0 +1,19 @@
+digraph "tests.tests_functional.CRUDActionsTest.test_filter_object"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="tests.tests_functional.CRUDActions\lTest.test_filter_object",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.test.selenium.Selenium\lTestCase.live_server_url",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1selenium_1_1_selenium_test_case.html#a07ef54abb81f742bb06c147d91925d51",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.test.testcases.Live\lServerTestCase.live_server_url",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1test_1_1testcases_1_1_live_server_test_case.html#a584f6c1f6bdaf2e1db75bc7df3828197",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.contrib.admin.tests.\lAdminSeleniumTestCase.wait_for",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1tests_1_1_admin_selenium_test_case.html#ad58a7e4f7bcb1e22dccf4c1f6cc4006c",tooltip=" "];
+  Node4 -> Node5 [id="edge4_Node000004_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="django.contrib.admin.tests.\lAdminSeleniumTestCase.wait_until",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1tests_1_1_admin_selenium_test_case.html#a3a48efc681ae9529d745d0dd95cca962",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="tests.base.FunctionalTest.wait_for",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classtests_1_1base_1_1_functional_test.html#a949a11e01a308a911ddd2d49ead0651b",tooltip=" "];
+}

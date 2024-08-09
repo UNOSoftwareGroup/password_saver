@@ -1,0 +1,13 @@
+digraph "pip._internal.utils.virtualenv.running_under_virtualenv"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="pip._internal.utils.virtualenv.running\l_under_virtualenv",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="pip._internal.utils.virtualenv.\l_running_under_legacy_virtualenv",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1utils_1_1virtualenv.html#aaf9d4a53a44e3f745ea031e69da3d5c1",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pip._internal.utils.virtualenv.\l_running_under_venv",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacepip_1_1__internal_1_1utils_1_1virtualenv.html#aed731bfe94b9796505e1ff4fd42b19a1",tooltip=" "];
+}

@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [id="Node000000",label="template.Node",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [id="edge4287_Node000000_Node000001",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node1 [id="Node000001",label="django.contrib.admin.templatetags.log.\lAdminLogNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1admin_1_1templatetags_1_1log_1_1_admin_log_node.html",tooltip=" "];
+  Node0 -> Node2 [id="edge4288_Node000000_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="django.contrib.flatpages.templatetags.flatpages.\lFlatpageNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1contrib_1_1flatpages_1_1templatetags_1_1flatpages_1_1_flatpage_node.html",tooltip=" "];
+  Node0 -> Node3 [id="edge4289_Node000000_Node000003",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="django.templatetags.static.\lPrefixNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1templatetags_1_1static_1_1_prefix_node.html",tooltip=" "];
+  Node0 -> Node4 [id="edge4290_Node000000_Node000004",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="django.templatetags.static.\lStaticNode",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classdjango_1_1templatetags_1_1static_1_1_static_node.html",tooltip=" "];
+}

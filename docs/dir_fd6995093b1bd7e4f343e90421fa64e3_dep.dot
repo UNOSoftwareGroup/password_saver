@@ -1,0 +1,30 @@
+digraph "C:/Users/LukeMabie/documents/Development/Password_Saver_Using_Django-master/venv/Lib/site-packages/django"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_880bfa2d0d53b289c2c7691ccbc75f95 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="site-packages", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_880bfa2d0d53b289c2c7691ccbc75f95.html",tooltip=""]
+  subgraph clusterdir_fd6995093b1bd7e4f343e90421fa64e3 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_fd6995093b1bd7e4f343e90421fa64e3.html",tooltip=""]
+    dir_fd6995093b1bd7e4f343e90421fa64e3 [shape=plaintext, label="django"];
+  dir_bbd012a00b2a8798d23b0f3671720b5c [label="apps", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_bbd012a00b2a8798d23b0f3671720b5c.html",tooltip=""];
+  dir_235e87a763c4964575124f11f2368f69 [label="conf", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_235e87a763c4964575124f11f2368f69.html",tooltip=""];
+  dir_3744c791f189b3312b781cb062a24638 [label="contrib", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_3744c791f189b3312b781cb062a24638.html",tooltip=""];
+  dir_0da3febc3e5a89c4a2c38ea720ac07f4 [label="core", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_0da3febc3e5a89c4a2c38ea720ac07f4.html",tooltip=""];
+  dir_dc546c791a0a8197e716da3346cfdf31 [label="db", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_dc546c791a0a8197e716da3346cfdf31.html",tooltip=""];
+  dir_98c78604cb9bad2947bc29c0fb9635d9 [label="dispatch", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_98c78604cb9bad2947bc29c0fb9635d9.html",tooltip=""];
+  dir_9313f1e7287328a10ef48676bc33ab03 [label="forms", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_9313f1e7287328a10ef48676bc33ab03.html",tooltip=""];
+  dir_578a563c392109488f67b91a522b0118 [label="http", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_578a563c392109488f67b91a522b0118.html",tooltip=""];
+  dir_7af49c7c730bc30f6c02ecc0a9445341 [label="middleware", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_7af49c7c730bc30f6c02ecc0a9445341.html",tooltip=""];
+  dir_e0e0aab43a8ec1a19efaf837023f7297 [label="template", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_e0e0aab43a8ec1a19efaf837023f7297.html",tooltip=""];
+  dir_8454ea20d600be01f74bc1002b830099 [label="templatetags", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_8454ea20d600be01f74bc1002b830099.html",tooltip=""];
+  dir_cbf77d587d3d77cf16ff4d9ca1ad4097 [label="test", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_cbf77d587d3d77cf16ff4d9ca1ad4097.html",tooltip=""];
+  dir_94431752d73e73596b84c828a3495f50 [label="urls", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_94431752d73e73596b84c828a3495f50.html",tooltip=""];
+  dir_3909cf11559074f1b504bac5e326164b [label="utils", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_3909cf11559074f1b504bac5e326164b.html",tooltip=""];
+  dir_9f353d59bc9dee2f69cc3ceeccafc43d [label="views", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_9f353d59bc9dee2f69cc3ceeccafc43d.html",tooltip=""];
+  }
+  }
+}

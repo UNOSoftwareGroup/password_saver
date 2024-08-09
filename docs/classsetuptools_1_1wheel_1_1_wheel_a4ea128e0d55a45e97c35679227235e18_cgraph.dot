@@ -1,0 +1,13 @@
+digraph "setuptools.wheel.Wheel._convert_metadata"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="setuptools.wheel.Wheel.\l_convert_metadata",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="setuptools.wheel.disable\l_info_traces",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$namespacesetuptools_1_1wheel.html#a21fca9778ab68a6472b1ad69b1ad7170",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="pkg_resources.Distribution.from\l_location",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$classpkg__resources_1_1_distribution.html#ae9ca5a17ee746d2c57fa249bd287ec1b",tooltip=" "];
+}
