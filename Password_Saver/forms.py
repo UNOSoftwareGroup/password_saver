@@ -35,11 +35,10 @@ class FolderForm(forms.ModelForm):
 class AccountInfoForm(forms.ModelForm):
     password = forms.CharField(label="Password", widget=forms.PasswordInput())
     folder = forms.ModelChoiceField(queryset=Folder.objects.none(), required=False)
-    reminder_date = forms.DateField(widget=forms.SelectDateWidget, required=False)  # Add this line
-
+    reminder_date = forms.DateField(widget=forms.SelectDateWidget, required=False)  
     class Meta:
         model = AccountInfo
-        fields = ('account_name', 'user_name', 'password', 'folder', 'reminder_date')  # Update this line
+        fields = ('account_name', 'user_name', 'password', 'folder', 'reminder_date') 
 
     def __init__(self, user, *args, **kwargs):
         self.user = user
