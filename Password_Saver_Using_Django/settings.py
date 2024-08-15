@@ -14,7 +14,7 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 SECRET_KEY = 'django-insecure-tfbyn+5i!d+jw7kb59e50eyjzsc=a13evfdmvu!r6jk)r9jjqu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -142,5 +142,6 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_HOST_USER = "18r01a0594@gmail.com"
 EMAIL_HOST_PASSWORD = "obgkhffhweidqxhc"
+DEFAULT_FROM_EMAIL = "18r01a0594@gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False

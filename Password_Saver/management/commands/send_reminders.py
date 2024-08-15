@@ -11,11 +11,14 @@ class Command(BaseCommand):
         accounts = AccountInfo.objects.filter(reminder_date=today)
         
         for account in accounts:
-            send_mail(
+            email_sent = send_mail(
                 'Password Change Reminder',
                 f'Remember to change your password for {account.account_name}.',
-                'noreply@yourdomain.com',  
+                'noreply@yourdomain.com',
                 [account.user.email],
                 fail_silently=False,
             )
-        self.stdout.write(self.style.SUCCESS('Successfully sent reminders'))
+            if email_sent:
+                self.stdout.write(self.style.SUCCESS(f'Successfully sent reminder to {account.user.email}'))
+            else:
+                self.stdout.write(self.style.ERROR(f'Failed to send reminder to {account.user.email}'))
