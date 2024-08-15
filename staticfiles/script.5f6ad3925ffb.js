@@ -36,14 +36,11 @@ var input = document.getElementsByClassName("form-control")
             }, 3000)
         })
         $(".update").on("click", function() {
-            var id
-            var element = $(this)[0].getAttribute("data-id")
-            var folder_id = $(this)[0].getAttribute("data-folder")
-            id = element
-            var element = document.getElementById("update_rec_id")
-            element.setAttribute("value", id)
-            document.querySelector("select[name='folder']").value = folder_id;
-        })
+            var id = $(this).data("id");
+            var folder = $(this).data("folder");
+            $("#update_rec_id").val(id);
+            $("select[name='folder']").val(folder);
+        });        
         $("#updatebtn").on("click", function(clickEvent) {
             var password = myform.password.value
             var c_password = myform.confirmpassword.value
@@ -75,13 +72,10 @@ var input = document.getElementsByClassName("form-control")
         }
 
         $(".del").on("click", function() {
-            var id
-            var element = $(this)[0].getAttribute("data-id")
-            id = element
-            var ele = document.getElementById("delete_record_id")
-            ele.setAttribute("value", id)
-        })
-
+            var id = $(this).data("id");
+            $("#delete_record_id").val(id);
+        });
+        
         var message = document.getElementsByClassName("message")[0]
         setTimeout(function() {
             message.style.visibility = "hidden"

@@ -29,6 +29,12 @@
                     <input type="submit" class="background btn btn-primary rounded-pill" value="Register" data-bs-toggle="modal" data-bs-target="#registered-modal" 
                     role="button" onsubmit="showError()">
                 </div>
+                <div class="text-center my-2">
+                    <a onclick ="suggestStrongPassword()">Click Here!</a> For password suggestions
+                </div>
+                <div id="strong_password">
+
+                </div>
                 <div class="text-center my-2">  Already have an account?
                     <a href="{% url 'login' %}"> Login Here </a> 
                 </div>           
@@ -81,6 +87,20 @@
         function showError()
         {
             let element = "{{ reg_form.erros }}"
+        }
+        function suggestStrongPassword()
+        {
+            alert("hello!!!")
+            const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()~<>?:;',.-_+=[]{}\|";
+            let result = "";
+            for (let i = 0; i < 8; i++) {
+                result += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            var element = document.getElementById("strong_password")
+            element.textContent="Recommended password for your profile: " + result
+            setTimeout(function(){
+                element.textContent = ""
+            },3000)
         }
         var input = document.getElementsByClassName("form-control")
         for(i=0;i<input.length;i++){
