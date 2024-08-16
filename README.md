@@ -13,3 +13,13 @@ Run the server python manage.py runserver
 Usage After launching the application, navigate to http://localhost:8000 in your web browser to start using the Password Saver Application.
 
 Contributing Contributions to the Password Saver are welcome. Please ensure that your pull requests provide a detailed description of the changes and reasons for the update.
+
+Release Update:  
+
+Two factor authentication during registration  
+
+ The users to reset their passwords and login with the updated password 
+
+The user can add folders to organize passwords. 
+
+ The user gets reminders to change password as well as password recommendations 
