@@ -1,3 +1,5 @@
+Description Password Saver is a secure application designed to help users manage their various online passwords efficiently and securely. This application provides a user-friendly interface for storing, retrieving, updating, and deleting passwords associated with different online accounts. 
+
 Features User Registration: Securely register and create a new account. User Login: Log in with credentials and multi-factor authentication for added security. Password Management: Add, update, and delete passwords stored in an encrypted format. Secure Access: All data is encrypted to ensure security and confidentiality. Technologies Backend: Django (Python)
 
 Frontend: HTML, CSS, Java Script Setup and Installation Clone the repository git clone https://github.com/MalisettyBhavani/Password_Saver_Using_Django.git
@@ -16,10 +18,10 @@ Contributing Contributions to the Password Saver are welcome. Please ensure that
 
 Release Update:  
 
-Two factor authentication during registration  
+1) Two factor authentication during registration  
 
- The users to reset their passwords and login with the updated password 
+2) The users to reset their passwords and login with the updated password 
 
-The user can add folders to organize passwords. 
+3) The user can add folders to organize passwords. 
 
- The user gets reminders to change password as well as password recommendations 
+4) The user gets reminders to change password as well as password recommendations 
